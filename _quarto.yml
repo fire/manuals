@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+resources:
+  - decisions/attachments
+
+website:
+  site-url: https://v-sekai-multiplayer-fabric.github.io/manuals
+  repo-url: https://github.com/v-sekai-multiplayer-fabric/manuals
+  repo-branch: main
+  repo-actions: edit
+  title: V-Sekai Fire — Manuals
+  page-navigation: true
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Changes"
+        file: changelog.qmd
+      - text: "Decisions"
+        file: decisions.qmd
+      - text: "References"
+        file: references.qmd
+  page-footer:
+    right:
+      - icon: github
+        href: https://github.com/v-sekai-multiplayer-fabric
+
+bibliography: references.bib
+
+format:
+  html:
+    toc: true
+    theme:
+      light: flatly
+      dark: darkly
+
+filters:
+  - quarto
+  - filters/decision-meta.py
+
+freeze: true

@@ -1,0 +1,22 @@
+---
+title: "Decisions"
+toc: true
+listing:
+  filter-ui: true
+  sort-ui: true
+  type: table
+  contents:
+    - "decisions/**/*.md"
+    - "!decisions/attachments/"
+  sort:
+    - "date desc"
+    - "title"
+  feed: true
+  fields: [title, date, tier, status, filename]
+  field-display-names:
+    title: "Title"
+    date: "Date"
+    tier: "Tier"
+    status: "Status"
+    filename: "File"
+---
