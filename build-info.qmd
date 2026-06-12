@@ -1,29 +1,11 @@
 ---
 title: "Build information"
-execute:
-  freeze: false
 ---
 
-This table recomputes every time the site builds on GitHub Actions, so each value
-reflects the date of the most recent Publish run rather than a stored snapshot. The ISO
+This table is generated when the site builds on GitHub Actions, so each value reflects
+the date of the most recent Publish run rather than a stored snapshot. A workflow step
+writes the table with `date`, so the render stays free of executable code. The ISO
 year-week field uses the same `YYYYwWW` form as the
 [ZFS pool naming convention](decisions/20260611-zpool-naming-convention.md).
 
-```{python}
-import datetime
-
-import pandas as pd
-
-today = datetime.date.today()
-
-pd.DataFrame(
-    [
-        ("Build date (ISO 8601)", today.isoformat()),
-        ("ISO year-week", today.strftime("%Gw%V")),
-        ("Day of year", today.strftime("%j")),
-        ("Weekday", today.strftime("%A")),
-        ("Days into 2026", str((today - datetime.date(2026, 1, 1)).days)),
-    ],
-    columns=["Field", "Value"],
-).set_index("Field")
-```
+{{< include _build-info-table.md >}}
