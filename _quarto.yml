@@ -22,6 +22,8 @@ website:
         file: decisions.qmd
       - text: "References"
         file: references.qmd
+      - text: "Build"
+        file: build-info.qmd
   page-footer:
     right:
       - icon: github
