@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>V-Sekai Fire — Manuals</title>
+<link>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions.html</link>
+<atom:link href="https://v-sekai-multiplayer-fabric.github.io/manuals/decisions.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Tue, 09 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Commit messages use sentence case without Conventional Commits prefixes</title>
+  <link>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260609-commit-messages-sentence-case.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em><a href="../index.html">Manuals</a> › <a href="../decisions.html">Decisions</a> › Commit messages use sentence case without Conventional Commits prefixes</em></p>
+<p><strong>Status:</strong> accepted</p>
+<section id="context-and-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="context-and-problem-statement">Context and Problem Statement</h2>
+<p>A commit subject is the first line a reader meets in <code>git log</code>, a blame, or a release note. Two conventions compete for how it reads. Conventional Commits prefixes each subject with a machine-readable type and optional scope, such as <code>feat:</code> or <code>fix(parser):</code>, and lower-cases the summary that follows. Plain prose writes the subject as an ordinary capitalised sentence. How should a commit subject in this repo read?</p>
+</section>
+<section id="decision-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="decision-drivers">Decision Drivers</h2>
+<ul>
+<li>A reader scans the subject as a sentence first, and the meaning sits at the front rather than after a colon.</li>
+<li>The repos here run no tooling that consumes a commit type: no semantic-release, no changelog keyed on <code>feat</code> or <code>fix</code>.</li>
+<li>One rule covers every commit, so review needs no judgement about which type applies.</li>
+</ul>
+</section>
+<section id="considered-options" class="level2">
+<h2 class="anchored" data-anchor-id="considered-options">Considered Options</h2>
+<ul>
+<li>Conventional Commits, with a <code>type(scope):</code> prefix on every subject.</li>
+<li>Sentence-case prose subjects with no prefix.</li>
+<li>Free choice of style per author.</li>
+</ul>
+</section>
+<section id="decision-outcome" class="level2">
+<h2 class="anchored" data-anchor-id="decision-outcome">Decision Outcome</h2>
+<p>Chosen option: sentence-case prose with no prefix, because the subject stays a sentence a reader understands on sight, and the repos gain nothing from a commit type that no tool reads.</p>
+<p>A commit subject opens with a capital letter and reads as a plain sentence, such as <code>Add the macOS and Windows release workflows</code>. It carries no <code>feat:</code>, <code>fix:</code>, <code>chore:</code>, or <code>type(scope):</code> prefix, and no trailing period. The body, where present, states what the change makes true of the system and why.</p>
+<section id="consequences" class="level3">
+<h3 class="anchored" data-anchor-id="consequences">Consequences</h3>
+<ul>
+<li>Good, because the subject reads as a summary on its own, with nothing to strip before the meaning.</li>
+<li>Good, because the rule holds for every commit, so no author weighs whether a change counts as a <code>feat</code> or a <code>fix</code>.</li>
+<li>Bad, because a changelog tool that groups commits by type finds no signal here, so adopting one later needs a different marker or a history rewrite.</li>
+</ul>
+</section>
+<section id="confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="confirmation">Confirmation</h3>
+<p>Review reads each subject as a capitalised sentence with no type prefix and no trailing period. The history after this decision shows subjects in that form.</p>
+</section>
+</section>
+<section id="more-information" class="level2">
+<h2 class="anchored" data-anchor-id="more-information">More Information</h2>
+<p>This pairs with the tenseless continuous-present voice (<a href="../decisions/20260607-tenseless-continuous-present-voice.html">20260607-tenseless-continuous-present-voice.md</a>): a commit body states what the change makes true of the system, the same way comments and docs do.</p>
+
+
+</section>
+<section id="related" class="level2">
+<h2 class="anchored" data-anchor-id="related">Related</h2>
+<ul>
+<li><p><a href="20260607-tenseless-continuous-present-voice.html">Comments and docs use a tenseless continuous-present voice</a></p></li>
+</ul>
+</section>
+
+ ]]></description>
+  <guid>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260609-commit-messages-sentence-case.html</guid>
+  <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Comments and docs use a tenseless continuous-present voice</title>
+  <link>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260607-tenseless-continuous-present-voice.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em><a href="../index.html">Manuals</a> › <a href="../decisions.html">Decisions</a> › Comments and docs use a tenseless continuous-present voice</em></p>
+<p><strong>Status:</strong> accepted</p>
+<section id="context-and-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="context-and-problem-statement">Context and Problem Statement</h2>
+<p>Comments and documentation drift out of sync with code as the system changes. A comment written as history (“added a cache”, “we removed the old path”) or as a plan (“will solve this”, “TODO: wire X”) describes a moment that has passed or has not yet arrived, so a reader cannot check it against the code in front of them. How should prose in this repo phrase what it says about the system?</p>
+</section>
+<section id="decision-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="decision-drivers">Decision Drivers</h2>
+<ul>
+<li>A reader trusts a comment when it matches the code as it stands.</li>
+<li>History lives in git; plans live in issues and decision records.</li>
+<li>The rule stays mechanical enough to apply in review without debate.</li>
+</ul>
+</section>
+<section id="considered-options" class="level2">
+<h2 class="anchored" data-anchor-id="considered-options">Considered Options</h2>
+<ul>
+<li>Free choice of tense per author.</li>
+<li>Past-tense changelog voice inside code comments.</li>
+<li>A tenseless continuous-present voice where every sentence states what is currently true of the system.</li>
+</ul>
+</section>
+<section id="decision-outcome" class="level2">
+<h2 class="anchored" data-anchor-id="decision-outcome">Decision Outcome</h2>
+<p>Chosen option: “a tenseless continuous-present voice”, because a sentence that states a present truth stays correct as long as the code it describes stays the same, and goes stale visibly the moment the code changes.</p>
+<p>Every comment and documentation sentence states what is currently true of the system. Prose describes behaviour (“the parser streams tokens”), and an unfinished area reads as a present gap (“the parser handles no Unicode escapes yet”) rather than as a task or a past edit. The voice covers code comments, doc pages, and decision records alike.</p>
+<p>The voice rules out three habits:</p>
+<ul>
+<li>Past-tense narration of edits, such as “removed the legacy path” or “we switched to a queue”.</li>
+<li>Future or imperative planning, such as “will add validation” or “TODO: handle retries”.</li>
+<li>Temporal qualifiers that age, such as “now”, “currently changed”, or “previously”.</li>
+</ul>
+<p>A TODO document states each open item as a present gap, so the file reads as a description of where the system stands rather than a logbook of intentions.</p>
+<section id="consequences" class="level3">
+<h3 class="anchored" data-anchor-id="consequences">Consequences</h3>
+<ul>
+<li>Good, because a stale sentence signals a real divergence from the code, which makes review catch it.</li>
+<li>Good, because one voice covers code comments, doc pages, and decision records.</li>
+<li>Bad, because a present-gap phrasing reads less naturally than an imperative TODO, and authors need practice to phrase work that way.</li>
+</ul>
+</section>
+<section id="confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="confirmation">Confirmation</h3>
+<p>Review checks that new comments and prose state present truths, with no past-tense edit narration, no future or imperative planning, and no aging temporal qualifiers. The existing decision records in this repo already read this way.</p>
+</section>
+</section>
+<section id="more-information" class="level2">
+<h2 class="anchored" data-anchor-id="more-information">More Information</h2>
+<p>This generalizes the house rule applied across the sinew Lean spec and its native viewer prose, where comments describe current behaviour and <code>todo.md</code> lists each open item as a present gap.</p>
+
+
+</section>
+<section id="related" class="level2">
+<h2 class="anchored" data-anchor-id="related">Related</h2>
+<ul>
+<li><p><a href="20260609-commit-messages-sentence-case.html">Commit messages use sentence case without Conventional Commits prefixes</a></p></li>
+</ul>
+</section>
+
+ ]]></description>
+  <guid>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260607-tenseless-continuous-present-voice.html</guid>
+  <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Archival file naming convention for committed assets</title>
+  <link>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260606-archival-file-naming-convention.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em><a href="../index.html">Manuals</a> › <a href="../decisions.html">Decisions</a> › Archival file naming convention for committed assets</em></p>
+<p><strong>Tier:</strong> baseline · <strong>Status:</strong> accepted</p>
+<section id="context-and-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="context-and-problem-statement">Context and Problem Statement</h2>
+<p>The manuals repo now commits binary assets alongside prose, starting with screenshots under <code>decisions/attachments/</code>. Ad-hoc names like <code>image.png</code> collide, sort poorly, and lose their provenance once they leave the page that referenced them. What naming convention should committed assets follow so they stay unique, sortable, and self-describing?</p>
+</section>
+<section id="decision-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="decision-drivers">Decision Drivers</h2>
+<ul>
+<li>Names should be unique and not collide across decisions.</li>
+<li>Names should sort chronologically and read as self-describing.</li>
+<li>Names should survive being copied out of the repo (provenance in the name).</li>
+<li>The convention should match established digital-preservation guidance.</li>
+</ul>
+</section>
+<section id="considered-options" class="level2">
+<h2 class="anchored" data-anchor-id="considered-options">Considered Options</h2>
+<ul>
+<li>Keep source names (<code>image.png</code>, <code>screenshot (1).png</code>).</li>
+<li>Content hash names (<code>a1b2c3.png</code>).</li>
+<li>A Library of Congress style descriptive convention.</li>
+</ul>
+</section>
+<section id="decision-outcome" class="level2">
+<h2 class="anchored" data-anchor-id="decision-outcome">Decision Outcome</h2>
+<p>Chosen option: “A Library of Congress style descriptive convention”, because it follows recognized preservation guidance and yields names that sort and explain themselves.</p>
+<p>The pattern:</p>
+<pre><code>YYYYMMDD_project_description_NNNN.ext</code></pre>
+<p>Following the Library of Congress file-naming guidance:</p>
+<ul>
+<li>Lowercase ASCII only; no spaces or special characters.</li>
+<li>ISO 8601 date first (<code>YYYYMMDD</code>) so names sort chronologically.</li>
+<li>Facets separated by underscores (<code>_</code>); words within a facet by hyphens (<code>-</code>).</li>
+<li>A zero-padded sequence (<code>NNNN</code>) to keep same-day captures unique and ordered.</li>
+<li>Descriptive but reasonably short.</li>
+</ul>
+<p>Example, used for the first committed screenshot:</p>
+<pre><code>20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png</code></pre>
+<p>Each committed asset also gets a BibTeX entry in <code>references.bib</code> recording its capture date and archived path, so the References page lists it.</p>
+<section id="consequences" class="level3">
+<h3 class="anchored" data-anchor-id="consequences">Consequences</h3>
+<ul>
+<li>Good: assets are unique, sort by date, and carry their provenance in the name.</li>
+<li>Good: the convention matches preservation practice and is mechanical to apply.</li>
+<li>Bad: names are longer than source names, and renaming on import is a manual step.</li>
+</ul>
+</section>
+<section id="confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="confirmation">Confirmation</h3>
+<p>Assets under <code>decisions/attachments/</code> match <code>YYYYMMDD_project_description_NNNN.ext</code> and have a matching <code>references.bib</code> entry. The first example is <code>20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png</code>, cited from the <a href="20260606-multiplayer-presence-demo-orbs.md">presence-demo decision</a>.</p>
+</section>
+</section>
+<section id="more-information" class="level2">
+<h2 class="anchored" data-anchor-id="more-information">More Information</h2>
+<p>Based on the Library of Congress guidance on file naming for digital preservation (descriptive, no spaces, lowercase, ISO dates, zero-padded sequences).</p>
+
+
+</section>
+<section id="related" class="level2">
+<h2 class="anchored" data-anchor-id="related">Related</h2>
+<ul>
+<li><p><a href="../changelog/2026/20260606-deck-log.html">V-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)</a></p></li>
+</ul>
+</section>
+
+ ]]></description>
+  <guid>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260606-archival-file-naming-convention.html</guid>
+  <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Feature classification — proof of concept, baseline, stretch</title>
+  <link>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260606-feature-classification-poc-baseline-stretch.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em><a href="../index.html">Manuals</a> › <a href="../decisions.html">Decisions</a> › Feature classification — proof of concept, baseline, stretch</em></p>
+<p><strong>Tier:</strong> baseline · <strong>Status:</strong> accepted</p>
+<section id="context-and-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="context-and-problem-statement">Context and Problem Statement</h2>
+<p>The capabilities table lists features with a free-text status (“working”, “loses about 90%”). Free text does not say whether a feature is a throwaway experiment, a committed part of the product, or a nice-to-have. The team needs one shared vocabulary for how far along and how committed a feature is, so planning and the docs agree on what “done” means for each one.</p>
+</section>
+<section id="decision-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="decision-drivers">Decision Drivers</h2>
+<ul>
+<li>One vocabulary shared between planning and the manuals.</li>
+<li>A reader should know at a glance whether a feature is committed or exploratory.</li>
+<li>Cheap to apply and to move as a feature matures.</li>
+</ul>
+</section>
+<section id="considered-options" class="level2">
+<h2 class="anchored" data-anchor-id="considered-options">Considered Options</h2>
+<ul>
+<li>Keep free-text status only.</li>
+<li>A maturity ladder (alpha / beta / stable).</li>
+<li>A three-tier commitment classification: proof of concept, baseline, stretch.</li>
+</ul>
+</section>
+<section id="decision-outcome" class="level2">
+<h2 class="anchored" data-anchor-id="decision-outcome">Decision Outcome</h2>
+<p>Chosen option: “A three-tier commitment classification”, because it captures commitment, not just maturity, which is what planning needs.</p>
+<p>The tiers:</p>
+<ol type="1">
+<li>A proof of concept demonstrates the idea works end to end, in partial or throwaway form. It may be unreliable or lossy, and nothing depends on it yet.</li>
+<li>The baseline is the committed minimum the product ships. It works reliably across the target platforms, and is the bar.</li>
+<li>A stretch goal goes beyond baseline. It is pursued if time allows; cutting it does not block the release.</li>
+</ol>
+<p>Each feature in the <a href="../index.html#capabilities-and-where-they-live">capabilities table</a> carries one tier. A feature moves between tiers as it matures or as commitment changes; the tier is the current call, not a permanent label.</p>
+<section id="initial-triage" class="level3">
+<h3 class="anchored" data-anchor-id="initial-triage">Initial triage</h3>
+<ul>
+<li>Native video playback — baseline.</li>
+<li>Scene baking via OpenUSD — baseline.</li>
+<li>Spatial audio (HRTF + audio probes) — baseline.</li>
+<li>Speech — baseline.</li>
+<li>Pen stroke creation (cassie) — proof of concept (patch surface creation loses about 90%).</li>
+</ul>
+</section>
+<section id="consequences" class="level3">
+<h3 class="anchored" data-anchor-id="consequences">Consequences</h3>
+<ul>
+<li>Good: planning and docs share one word per feature for its commitment level.</li>
+<li>Good: the tier is a small, reversible edit as features move.</li>
+<li>Bad: a tier is a judgement call and can drift from reality if the table is not kept current.</li>
+</ul>
+</section>
+<section id="confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="confirmation">Confirmation</h3>
+<p>The capabilities table has a Tier column, and every row carries one of the three tiers. New capabilities are added with a tier.</p>
+
+
+</section>
+</section>
+<section id="related" class="level2">
+<h2 class="anchored" data-anchor-id="related">Related</h2>
+<ul>
+<li><p><a href="../changelog/2026/20260606-deck-log.html">V-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)</a></p></li>
+</ul>
+</section>
+
+ ]]></description>
+  <guid>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260606-feature-classification-poc-baseline-stretch.html</guid>
+  <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <link>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/present-proposal-template.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="proposal-title" class="level1">
+<h1>[Proposal Title]</h1>
+<section id="the-context" class="level2">
+<h2 class="anchored" data-anchor-id="the-context">The Context</h2>
+<p>Describe the circumstances that led to this proposal. Give enough background that someone unfamiliar with the area can understand why the work matters. State what you were trying to accomplish, not what solution you reached for first.</p>
+</section>
+<section id="the-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem-statement">The Problem Statement</h2>
+<p>State the specific problem, limitation, or gap being addressed. Be concrete. A reader should be able to confirm whether a proposed solution actually solves it.</p>
+</section>
+<section id="design" class="level2">
+<h2 class="anchored" data-anchor-id="design">Design</h2>
+<p>Detail the proposed solution precisely enough that it could be implemented without improvising the design. Include code, diagrams, or examples where they reduce ambiguity. Vague or underspecified proposals cannot be acted on.</p>
+</section>
+<section id="cris-score" class="level2">
+<h2 class="anchored" data-anchor-id="cris-score">CRIS Score</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 4%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Factor</th>
+<th>Score</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>C</strong>omplexity</td>
+<td>0–10</td>
+<td>[10 = simple, well-understood; 0 = novel or high-risk — why]</td>
+</tr>
+<tr class="even">
+<td><strong>R</strong>each</td>
+<td>0–10</td>
+<td>[10 = affects everyone; 0 = affects almost no one — why]</td>
+</tr>
+<tr class="odd">
+<td><strong>I</strong>mpediment</td>
+<td>0–10</td>
+<td>[10 = total blocker with no workaround; 0 = trivial to work around — why]</td>
+</tr>
+<tr class="even">
+<td><strong>S</strong>takeholder</td>
+<td>0–10</td>
+<td>[10 = critical dependency for a major project; 0 = no project depends on it — why]</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td></td>
+<td>[Average of four factors (0–10); 8–10 = build now, 6–8 = schedule soon, 4–6 = evaluate, 0–4 = defer]</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-downsides" class="level2">
+<h2 class="anchored" data-anchor-id="the-downsides">The Downsides</h2>
+<p>Describe the costs, risks, or trade-offs. Every proposal has them.</p>
+</section>
+<section id="the-road-not-taken" class="level2">
+<h2 class="anchored" data-anchor-id="the-road-not-taken">The Road Not Taken</h2>
+<p>Describe the alternatives considered and why this approach was chosen over them.</p>
+</section>
+<section id="status" class="level2">
+<h2 class="anchored" data-anchor-id="status">Status</h2>
+<p>Status: Draft <!-- Draft | Proposed | Rejected | Accepted | Deprecated | Superseded by [Link/Reference] --></p>
+</section>
+<section id="decision-makers" class="level2">
+<h2 class="anchored" data-anchor-id="decision-makers">Decision Makers</h2>
+<ul>
+<li>[Name or role]</li>
+</ul>
+</section>
+<section id="tags" class="level2">
+<h2 class="anchored" data-anchor-id="tags">Tags</h2>
+<ul>
+<li>[relevant-tag-1], [relevant-tag-2], YYYYMMDD-this-filename-without-extension, present-proposal-template</li>
+</ul>
+<!-- Always include the filename (without .md) as the last tag.
+     This makes the document findable by filename from any grep or
+     code-search tool, the same way Godot Engine source files are
+     cross-referenced by their basename. -->
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<!-- Written in Bibtex format -->
+<pre><code>@misc{v_sekai_2026,
+  title = {V-Sekai},
+  year  = {2026},
+  url   = {https://v-sekai.org/}
+}</code></pre>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/present-proposal-template.html</guid>
+  <pubDate>Fri, 12 Jun 2026 00:36:13 GMT</pubDate>
+</item>
+</channel>
+</rss>

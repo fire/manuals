@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/changelog.html",
+    "items": [
+      "/changelog/2026/20260606-deck-log.html",
+      "/changelog/2026/20260507-deck-log.html",
+      "/changelog/2026/20260506-deck-log.html",
+      "/changelog/2026/20260425-deck-log.html",
+      "/changelog/2026/20260421-deck-log.html"
+    ]
+  },
+  {
+    "listing": "/decisions.html",
+    "items": [
+      "/decisions/present-proposal-template.html",
+      "/decisions/20260609-commit-messages-sentence-case.html",
+      "/decisions/20260607-tenseless-continuous-present-voice.html",
+      "/decisions/20260606-archival-file-naming-convention.html",
+      "/decisions/20260606-feature-classification-poc-baseline-stretch.html"
+    ]
+  }
+]
