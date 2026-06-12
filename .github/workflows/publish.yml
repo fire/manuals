@@ -30,11 +30,23 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      # Only what the render uses: a minimal Jupyter kernel stack for the
-      # build-info page (rather than the full jupyter metapackage), pandas for
-      # its table, and panflute for the decision-meta filter.
+      # The render runs no code cells, so it needs only panflute for the
+      # decision-meta pandoc filter.
       - name: Set up Python packages
-        run: pip install ipykernel nbclient jupyter-core pandas panflute
+        run: pip install panflute
+
+      # Compute the build-info table at build time without a code engine: a
+      # shell step writes the partial that build-info.qmd includes.
+      - name: Generate the build-info table
+        run: |
+          {
+            printf '| Field | Value |\n| --- | --- |\n'
+            printf '| Build date (ISO 8601) | %s |\n' "$(date -u +%Y-%m-%d)"
+            printf '| ISO year-week | %s |\n' "$(date -u +%Gw%V)"
+            printf '| Day of year | %s |\n' "$(date -u +%j)"
+            printf '| Weekday | %s |\n' "$(date -u +%A)"
+            printf '| Days into 2026 | %s |\n' "$(( ($(date -u +%s) - $(date -u -d 2026-01-01 +%s)) / 86400 ))"
+          } > _build-info-table.md
 
       - run: quarto render
 
