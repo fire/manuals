@@ -25,5 +25,5 @@ pd.DataFrame(
         ("Days into 2026", str((today - datetime.date(2026, 1, 1)).days)),
     ],
     columns=["Field", "Value"],
-)
+).set_index("Field")
 ```

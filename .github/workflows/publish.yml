@@ -30,10 +30,11 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      # Only what the render uses: the jupyter engine for the build-info page,
-      # pandas for its table, and panflute for the decision-meta filter.
+      # Only what the render uses: a minimal Jupyter kernel stack for the
+      # build-info page (rather than the full jupyter metapackage), pandas for
+      # its table, and panflute for the decision-meta filter.
       - name: Set up Python packages
-        run: pip install jupyter pandas panflute
+        run: pip install ipykernel nbclient jupyter-core pandas panflute
 
       - run: quarto render
 
