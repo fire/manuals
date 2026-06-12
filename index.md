@@ -1,4 +1,4 @@
-# V-Sekai — Multiplayer Fabric
+# Chibifire — Manuals
 
 Documentation for the multiplayer fabric stack: a WebTransport game server platform built on Godot, Elixir, and CockroachDB. The runtime is moving from Fly.io onto a self-hosted Harvester HCI cluster, where each service runs as a VM image driven by podman quadlets.
 
