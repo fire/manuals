@@ -49,258 +49,6 @@
     "text": "Manuals › References\n\n\nAcademy Software Foundation. 2026. MaterialX: An Open Standard for Network-Based CG Object Looks. https://materialx.org/.\n\n\nAhmed, Dewan T., and Shervin Shirmohammadi. 2008. “A Dynamic Area of Interest Management and Collaboration Model for P2P MMOGs.” Proceedings of the 12th IEEE/ACM International Symposium on Distributed Simulation and Real-Time Applications (DS-RT ’08), 27–34. https://doi.org/10.1109/DS-RT.2008.26.\n\n\nAhmed, Dewan T., and Shervin Shirmohammadi. 2009. “Zoning Issues and Area of Interest Management in Massively Multiplayer Online Games.” In Handbook of Multimedia for Digital Entertainment and Arts. Springer. https://doi.org/10.1007/978-0-387-89024-1_8.\n\n\nApple Inc. 2026. FoundationDB. https://github.com/apple/foundationdb.\n\n\n“Aspects of Visual Avatar Appearance: Self-Representation, Display Type, and Uncanny Valley.” 2021. The Visual Computer, ahead of print. https://doi.org/10.1007/s00371-021-02151-0.\n\n\nBaughman, Nathaniel E., Marc Liberatore, and Brian Neil Levine. 2007. “Cheat-Proof Playout for Centralized and Peer-to-Peer Gaming.” IEEE/ACM Transactions on Networking 15 (1). https://doi.org/10.1109/TNET.2006.886289.\n\n\nBeskow, Paul B., Knut-Helge Vik, Pål Halvorsen, and Carsten Griwodz. 2009. “The Partial Migration of Game State and Dynamic Server Selection to Reduce Latency.” Multimedia Tools and Applications 45 (1–3): 83–107. https://doi.org/10.1007/s11042-009-0287-7.\n\n\nBharambe, Ashwin R., Venkata N. Padmanabhan, and Srinivasan Seshan. 2004. “Supporting Spectators in Online Multiplayer Games.” Proceedings of the 3rd Workshop on Hot Topics in Networks (HotNets-III). https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/hotnets2004.pdf.\n\n\nBoulanger, Jean-Sébastien, Jörg Kienzle, and Clark Verbrugge. 2006. “Comparing Interest Management Algorithms for Massively Multiplayer Games.” Proceedings of the 5th ACM SIGCOMM Workshop on Network and System Support for Games (NetGames ’06). https://doi.org/10.1145/1230040.1230046.\n\n\nBraud, Tristan, Ahmad Alhilal, and Pan Hui. 2021. “Talaria: In-Engine Synchronisation for Seamless Migration of Mobile Edge Gaming Instances.” Proceedings of the 17th International Conference on Emerging Networking EXperiments and Technologies (CoNEXT ’21), 375–81. https://doi.org/10.1145/3485983.3494848.\n\n\nBukhsh, Ossama. 2026. Tropes: A Directory of AI Writing Tells. https://tropes.fyi/.\n\n\nCockroach Labs. 2020. Parallel Commits TLA+ Specification. https://github.com/v-sekai/cockroach/blob/release-22.1-oxide/docs/tla-plus/ParallelCommits/ParallelCommits.tla.\n\n\nCockroach Labs. 2026. CockroachDB. https://www.cockroachlabs.com/.\n\n\nCockroachDB Manual Deployment. 2026. https://www.cockroachlabs.com/docs/v22.1/manual-deployment.html.\n\n\nCronin, Eric, Brian Filstrup, and Sugih Jamin. 2003. “Cheat-Proofing Dead Reckoned Multiplayer Games.” Workshop on Anti-Cheating in Online Games (ADCOG), Co-Located with ACM SIGCOMM.\n\n\nDokku Documentation. 2026. http://dokku.viewdocs.io/dokku/.\n\n\nExit Games. 2026. Photon PUN2: Regions and Best Region. https://doc.photonengine.com/pun/current/connection-and-authentication/regions.\n\n\nFoundationDB Fault Tolerance. 2026. https://apple.github.io/foundationdb/fault-tolerance.html.\n\n\nFrindell, Alan, Eric Kinnear, and Victor Vassiliev. 2023. WebTransport over HTTP/3. RFC 9220, IETF. https://www.rfc-editor.org/rfc/rfc9220.\n\n\nGDScript Documentation. 2026. https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html.\n\n\nGodot Engine. 2026. https://godotengine.org/.\n\n\nGodot Engine Contributors. 2022. Add WebTransport Support (Proposal #3899). https://github.com/godotengine/godot-proposals/issues/3899.\n\n\nGodot Engine contributors. 2026. Godot 4.x Dynamic BVH Broadphase: Node Expansion Constants. https://github.com/godotengine/godot/blob/master/servers/physics_3d/godot_broad_phase_3d_bvh.h.\n\n\nGodot Engine Documentation. 2026. https://docs.godotengine.org/.\n\n\nGoogle. 2018. Resonance Audio: Multi-Platform Spatial Audio SDK. https://resonance-audio.github.io/resonance-audio/.\n\n\nGuinness World Records, and Daybreak Game Company. 2022. Most Players Simultaneously in a First-Person Shooter Battle: Planetside 2 World Record. https://www.guinnessworldrecords.com/world-records/most-players-simultaneously-in-a-fps-battle.\n\n\nHelm Documentation. 2026. https://helm.sh/docs/.\n\n\nJacobson, Van, and Michael J. Karels. 1988. “Congestion Avoidance and Control.” Proceedings of SIGCOMM ’88, 314–29. https://doi.org/10.1145/52324.52356.\n\n\nKarn, Phil, and Craig Partridge. 1987. “Improving Round-Trip Time Estimates in Reliable Transport Protocols.” Proceedings of ACM SIGCOMM ’87, 2–7. https://doi.org/10.1145/55483.55484.\n\n\nKhronos Group. 2026. Vulkan Video. https://www.khronos.org/blog/an-introduction-to-vulkan-video.\n\n\nKulkarni, Sandeep, Murat Demirbas, Deepak Madappa, Bharadwaj Avva, and Marcelo Leone. 2014. “Logical Physical Clocks and Consistent Snapshots in Globally Distributed Databases.” Stabilization, Safety, and Security of Distributed Systems (SSS 2014). https://doi.org/10.1007/978-3-319-11764-5_14.\n\n\nLazaridis, Lazaros, Maria Papatsimouli, Konstantinos F. Kollias, Panagiotis Sarigiannidis, and George F. Fragulis. 2021. “Hitboxes: A Survey about Collision Detection in Video Games.” HCI in Games: Experience Design and Game Mechanics, Lecture notes in computer science, vol. 12789: 307–20. https://doi.org/10.1007/978-3-030-77277-2_24.\n\n\nLee, Steven W. K., and Rocky K. C. Chang. 2018. “Enhancing the Experience of Multiplayer Shooter Games via Advanced Lag Compensation.” Proceedings of the 9th ACM Multimedia Systems Conference (MMSys ’18), 284–93. https://doi.org/10.1145/3204949.3204971.\n\n\nLengyel, Eric. 2017. “GPU-Centered Font Rendering Directly from Glyph Outlines.” Journal of Computer Graphics Techniques (JCGT) 6 (2): 31–47. https://jcgt.org/published/0006/02/02/.\n\n\nLiu, Elvis S., and Georgios K. Theodoropoulos. 2014. “Interest Management for Distributed Virtual Environments: A Survey.” ACM Computing Surveys 46 (4). https://doi.org/10.1145/2535417.\n\n\nLiu, Shengmei, Xiaokun Xu, and Mark Claypool. 2022. “A Survey and Taxonomy of Latency Compensation Techniques for Network Computer Games.” ACM Computing Surveys 54 (11s). https://doi.org/10.1145/3519023.\n\n\nMADR: Markdown Any Decision Records. 2026. https://adr.github.io/madr/.\n\n\nMills, David, Juergen Martin, Jack Burbank, and William Kasch. 2010. Network Time Protocol Version 4: Protocol and Algorithms Specification. RFC No. 5905. IETF. https://doi.org/10.17487/RFC5905.\n\n\nMorgan, Graham, Kier Storey, and Fengyun Lu. 2004. “Expanding Spheres: A Collision Detection Algorithm for Interest Management in Networked Games.” Entertainment Computing – ICEC 2004, Lecture notes in computer science, vol. 3166: 507–16. https://doi.org/10.1007/978-3-540-28643-1_56.\n\n\nMori, Masahiro, Karl F. MacDorman, and Norri Kageki. 2012. “The Uncanny Valley [from the Field].” IEEE Robotics & Automation Magazine 19 (2): 98–100. https://doi.org/10.1109/MRA.2012.2192811.\n\n\nMoura, Leonardo de, and Sebastian Ullrich. 2021. “The Lean 4 Theorem Prover and Programming Language.” Automated Deduction – CADE 28. https://doi.org/10.1007/978-3-030-79876-5_37.\n\n\nMozilla. 2026. Sccache: Shared Compilation Cache. https://github.com/mozilla/sccache.\n\n\nNAVER. 2026. ANNY: A Differentiable Human Body Model. https://github.com/naver/anny.\n\n\nNVIDIA Labs. 2026. SOMA-X: Unifying Parametric Human Body Models. https://github.com/NVlabs/SOMA-X.\n\n\nPixar Animation Studios, and Alliance for OpenUSD. 2026. OpenUSD: Universal Scene Description. https://openusd.org/.\n\n\nSalzman, Lee. 2026. ENet: Reliable UDP Networking Library. http://enet.bespin.org/.\n\n\nSchwind, Valentin, Katrin Wolf, and Niels Henze. 2018. “Implications of the Uncanny Valley of Avatars and Virtual Characters for Human-Computer Interaction.” Human–Computer Interaction. https://www.semanticscholar.org/paper/bbcb5ed4d1d26f9767dbdffb9bb4b60b668a49cb.\n\n\nStein, Jan-Philipp, and Peter Ohler. 2017. “Venturing into the Uncanny Valley of Mind — the Influence of Mind Attribution on the Acceptance of Human-Like Characters in a Virtual Reality Setting.” Cognition 160: 43–50. https://doi.org/10.1016/j.cognition.2016.12.010.\n\n\nSUSE Rancher. 2026. Harvester: Open-Source Hyperconverged Infrastructure. https://harvesterhci.io/.\n\n\nSystemd Service Unit Documentation. 2026. https://www.freedesktop.org/software/systemd/man/systemd.service.html.\n\n\nTailscale Funnel Documentation. 2026. https://tailscale.com/kb/1132/tailscale-funnel/.\n\n\nThe mathlib Community. 2020. “The Lean Mathematical Library.” Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs. https://doi.org/10.1145/3372885.3373824.\n\n\nThe Twelve-Factor App: Config. 2026. https://12factor.net/config.\n\n\nVRChat School. 2026. VRChat Network Sync and IK Update Rate. https://vrchatschool.com/network-sync/.\n\n\nV-Sekai Multiplayer Fabric. 2026. xr-grid Debug Scene: Hero-Asset Landmark with Head and Hand Orientation-and-Translation Orbs.\n\n\nZhou, Jingyu, Meng Xu, Alexander Shraer, et al. 2021. “FoundationDB: A Distributed Unbundled Transactional Key Value Store.” Proceedings of the 2021 ACM SIGMOD International Conference on Management of Data. https://doi.org/10.1145/3448016.3457559."
   },
   {
-    "objectID": "changelog/2026/20260425-deck-log.html",
-    "href": "changelog/2026/20260425-deck-log.html",
-    "title": "V-Sekai Fire Deck Log — 2026-04-25 (Saturday)",
-    "section": "",
-    "text": "Date: 2026-04-25\nBackdated from multiplayer-fabric/CHANGELOG.md [0.2.0] through [0.5.0] — all four releases shipped on the same day.\n\n\n\ntaskweft HRR property tests (67 properties) — all green after fixes\nTaskweft.Test.DBHelpers — auto-detects multiplayer-fabric-hosting/certs/crdb/ TLS certs; replaces hardcoded sslmode=disable URL in all three prop test files\nModule-level Postgrex pool in each prop test module (setup_all) — eliminates per-forall-iteration TLS connection overhead that caused 60 s ExUnit timeouts during PropCheck shrinking\nZone backend /api/v1 prefix moved into Phoenix router (scope \"/api/v1\"); Caddy no longer strips the prefix. 6/6 QA tests green on production\nPlaywright tests:\n\nwt_browser.spec.ts — browser WebTransport datagram echo PASS 1.4 s\ngodot_web_init.spec.ts — threaded wasm64 engine loads PASS 1.1 s\ngodot_wt_e2e.spec.ts — Godot web export WebTransportPeer end-to-end datagram echo PASS 3.3 s (4 C++ bugs fixed to reach green)\n\noperator_camera.gd — 2.5D top-down operator camera with twist/swing [0, 1] per axis (Survey mode: Q/E snap, scroll zoom, WASD pan; Follow mode: Blue Archive smooth entity tracking). Input actions added to project.godot. See 20260425-operator-camera-2-5d.md\nwindow.__camera_state exported via JavaScriptBridge.eval() for Playwright inspection without a full Godot web build\nPlaywright operator camera test (operator_camera.spec.ts) — Layer 1 JS simulation 7/7 pass; Layer 2 Godot web export test scaffolded (skipped until export built)\nWasmEquiv.lean — vm_deterministic proves compile-once libriscv VM correctness across native and Emscripten WASM hosts\nADRs: Three.js WebGPU observer (Stage 1), Three.js player (Stage 2), dual-client test, headless test matrix, build cache pipeline, CRIS scoring, jellyfish game, jellyfish pass condition, operator overlay, operator camera\nheadless_log_observer.gd — corrected default port to UDP 7443; added --host, --port, --dump-json, --frames CLI flags. Exit 0 on entities received, exit 1 on timeout\nfabric_client.gd — send_player_input(cmd, pos, extra) generic CH_PLAYER write path. Default port corrected to 7443\nobserver.tscn — XROrigin3D + XRCamera3D + left/right XRController3D added; port corrected to 7443\nfabric_player_xr.gd — OpenXR initialisation with silent desktop fallback\ntest_operator_camera.gd — headless quaternion unit tests (4/4 pass): downward look, 90° twist, swing elevation constant, equivalence to old Euler hierarchy\nheadless_go.spec.ts — Playwright Phase 1 GO spec; spawns godot --headless observer and asserts entities.length &gt; 0 from --dump-json output\nheadless_tests.yml — GitHub Actions workflow scaffolding for GO branch protection check (requires full Docker Compose stack to pass)\nADRs: Godot native headless observer (20260425-godot-observer.md), Godot native PCVR player (20260425-godot-player.md). Supersede Three.js ADRs\nLean proofs (multiplayer-fabric-taskweft/lean/): ZoneProtocol (port assignment, 100-byte packet layout), ZoneObserver (exit semantics, step monotonicity), ZonePlayer (CH_PLAYER cmd distinctness, camera swing invariant across all operator inputs)\n\n\n\n\n\nClient strategy: Godot wasm32/wasm64 web export dropped. Two clients replace it — Godot native PCVR (VR + entity control) and Three.js WebGPU (browser observer + WebXR). See 20260425-threejs-observer.md\nobserver.tscn — SpectatorRig replaced by OperatorRig with operator_camera.gd; StatusHUD re-parented to new camera path\noperator_camera.gd — swing-twist orientation now built as a single Quaternion (twist_q * swing_q) on CameraPivot instead of Euler angles split across pivot and arm. SpringArm3D carries no rotation\nClient strategy updated: Three.js ADRs superseded by Godot native observer and player. Three.js browser client moved to SOMEDAY\nrunner.yml — always() added to docker-images and headless-tests so sibling job failures (android, ios, etc.) do not skip them\ngitassembly — checkpointed multiplayer-fabric stage to start from remote HEAD; reassembled and pushed via update_godot_v_sekai.exs\n\n\n\n\n\nStorage.query_all/3 — Enum.map(nil, ...) crash on DML statements (INSERT/UPDATE/DELETE return rows: nil in Postgrex). Fixed with rows || []\nFour transaction rollback tests — raise \"rollback\" inside rescue _ -&gt; :ok committed instead of rolling back. Fixed with Postgrex.rollback(conn, :rollback)\nreferences.bib — non-ASCII bytes (en dashes, smart quotes, invalid Win-1252 sequences) replaced with ASCII equivalents\n_server_path_callback — prefer p_path_app_ctx over p_stream_ctx-&gt;path_callback_ctx (proved by Lean fixed_sctx theorem)\nwt_server_demo.gd — mirror received packet’s transfer_mode before put_packet (default RELIABLE routed echo to streams; datagrams need UNRELIABLE)\ntransport_peer.spec.ts shape mismatch: data.zones → data.shards\nZone registration: last_put_at on create, created_at field fix, PubSub rescue in zone controller\nCaddyfile: added handle /socket/* reverse proxy; socket path was 404\ngescons alias updated: threads=yes arch=wasm64 to match GHA web build\nquic_picoquic_backend.cpp:589 — SESSION_H3_SETTINGS reference after the enum value was removed in the WebTransport audit (6feefaf0b9)\nWebTransport audit fixes: datagram reader exclusive-lock bug (new reader per iteration → single reader reuse); incoming queue mutex for picoquic cross-thread safety; SESSION_H3_SETTINGS dead state removed from SessionState\nquic_web_glue.js — Lean 4 proofs (WebTransport.lean) for state machine acyclicity, queue discipline, and reader exclusivity invariant\noperator_camera.gd — delta parameter bug in _apply_swing_twist (was using get_process_delta_time() instead of passed delta)\nmultiplayer-fabric-godot local branches — tracking corrected from origin/master to their own origin/feat/* remotes\nmultiplayer-fabric-base local — reset to origin/multiplayer-fabric-base (local was stale reassembly before scu_build=yes fixes were applied)\nStale stashes dropped from multiplayer-fabric-godot (libriscv Win32 files already committed; openvr mode-change noise; empty archived-branch stash)\n\n\n\n\n\nRotated Cloudflare Turnstile keys (were plaintext in .env)"
-  },
-  {
-    "objectID": "changelog/2026/20260425-deck-log.html#added",
-    "href": "changelog/2026/20260425-deck-log.html#added",
-    "title": "V-Sekai Fire Deck Log — 2026-04-25 (Saturday)",
-    "section": "",
-    "text": "taskweft HRR property tests (67 properties) — all green after fixes\nTaskweft.Test.DBHelpers — auto-detects multiplayer-fabric-hosting/certs/crdb/ TLS certs; replaces hardcoded sslmode=disable URL in all three prop test files\nModule-level Postgrex pool in each prop test module (setup_all) — eliminates per-forall-iteration TLS connection overhead that caused 60 s ExUnit timeouts during PropCheck shrinking\nZone backend /api/v1 prefix moved into Phoenix router (scope \"/api/v1\"); Caddy no longer strips the prefix. 6/6 QA tests green on production\nPlaywright tests:\n\nwt_browser.spec.ts — browser WebTransport datagram echo PASS 1.4 s\ngodot_web_init.spec.ts — threaded wasm64 engine loads PASS 1.1 s\ngodot_wt_e2e.spec.ts — Godot web export WebTransportPeer end-to-end datagram echo PASS 3.3 s (4 C++ bugs fixed to reach green)\n\noperator_camera.gd — 2.5D top-down operator camera with twist/swing [0, 1] per axis (Survey mode: Q/E snap, scroll zoom, WASD pan; Follow mode: Blue Archive smooth entity tracking). Input actions added to project.godot. See 20260425-operator-camera-2-5d.md\nwindow.__camera_state exported via JavaScriptBridge.eval() for Playwright inspection without a full Godot web build\nPlaywright operator camera test (operator_camera.spec.ts) — Layer 1 JS simulation 7/7 pass; Layer 2 Godot web export test scaffolded (skipped until export built)\nWasmEquiv.lean — vm_deterministic proves compile-once libriscv VM correctness across native and Emscripten WASM hosts\nADRs: Three.js WebGPU observer (Stage 1), Three.js player (Stage 2), dual-client test, headless test matrix, build cache pipeline, CRIS scoring, jellyfish game, jellyfish pass condition, operator overlay, operator camera\nheadless_log_observer.gd — corrected default port to UDP 7443; added --host, --port, --dump-json, --frames CLI flags. Exit 0 on entities received, exit 1 on timeout\nfabric_client.gd — send_player_input(cmd, pos, extra) generic CH_PLAYER write path. Default port corrected to 7443\nobserver.tscn — XROrigin3D + XRCamera3D + left/right XRController3D added; port corrected to 7443\nfabric_player_xr.gd — OpenXR initialisation with silent desktop fallback\ntest_operator_camera.gd — headless quaternion unit tests (4/4 pass): downward look, 90° twist, swing elevation constant, equivalence to old Euler hierarchy\nheadless_go.spec.ts — Playwright Phase 1 GO spec; spawns godot --headless observer and asserts entities.length &gt; 0 from --dump-json output\nheadless_tests.yml — GitHub Actions workflow scaffolding for GO branch protection check (requires full Docker Compose stack to pass)\nADRs: Godot native headless observer (20260425-godot-observer.md), Godot native PCVR player (20260425-godot-player.md). Supersede Three.js ADRs\nLean proofs (multiplayer-fabric-taskweft/lean/): ZoneProtocol (port assignment, 100-byte packet layout), ZoneObserver (exit semantics, step monotonicity), ZonePlayer (CH_PLAYER cmd distinctness, camera swing invariant across all operator inputs)"
-  },
-  {
-    "objectID": "changelog/2026/20260425-deck-log.html#changed",
-    "href": "changelog/2026/20260425-deck-log.html#changed",
-    "title": "V-Sekai Fire Deck Log — 2026-04-25 (Saturday)",
-    "section": "",
-    "text": "Client strategy: Godot wasm32/wasm64 web export dropped. Two clients replace it — Godot native PCVR (VR + entity control) and Three.js WebGPU (browser observer + WebXR). See 20260425-threejs-observer.md\nobserver.tscn — SpectatorRig replaced by OperatorRig with operator_camera.gd; StatusHUD re-parented to new camera path\noperator_camera.gd — swing-twist orientation now built as a single Quaternion (twist_q * swing_q) on CameraPivot instead of Euler angles split across pivot and arm. SpringArm3D carries no rotation\nClient strategy updated: Three.js ADRs superseded by Godot native observer and player. Three.js browser client moved to SOMEDAY\nrunner.yml — always() added to docker-images and headless-tests so sibling job failures (android, ios, etc.) do not skip them\ngitassembly — checkpointed multiplayer-fabric stage to start from remote HEAD; reassembled and pushed via update_godot_v_sekai.exs"
-  },
-  {
-    "objectID": "changelog/2026/20260425-deck-log.html#fixed",
-    "href": "changelog/2026/20260425-deck-log.html#fixed",
-    "title": "V-Sekai Fire Deck Log — 2026-04-25 (Saturday)",
-    "section": "",
-    "text": "Storage.query_all/3 — Enum.map(nil, ...) crash on DML statements (INSERT/UPDATE/DELETE return rows: nil in Postgrex). Fixed with rows || []\nFour transaction rollback tests — raise \"rollback\" inside rescue _ -&gt; :ok committed instead of rolling back. Fixed with Postgrex.rollback(conn, :rollback)\nreferences.bib — non-ASCII bytes (en dashes, smart quotes, invalid Win-1252 sequences) replaced with ASCII equivalents\n_server_path_callback — prefer p_path_app_ctx over p_stream_ctx-&gt;path_callback_ctx (proved by Lean fixed_sctx theorem)\nwt_server_demo.gd — mirror received packet’s transfer_mode before put_packet (default RELIABLE routed echo to streams; datagrams need UNRELIABLE)\ntransport_peer.spec.ts shape mismatch: data.zones → data.shards\nZone registration: last_put_at on create, created_at field fix, PubSub rescue in zone controller\nCaddyfile: added handle /socket/* reverse proxy; socket path was 404\ngescons alias updated: threads=yes arch=wasm64 to match GHA web build\nquic_picoquic_backend.cpp:589 — SESSION_H3_SETTINGS reference after the enum value was removed in the WebTransport audit (6feefaf0b9)\nWebTransport audit fixes: datagram reader exclusive-lock bug (new reader per iteration → single reader reuse); incoming queue mutex for picoquic cross-thread safety; SESSION_H3_SETTINGS dead state removed from SessionState\nquic_web_glue.js — Lean 4 proofs (WebTransport.lean) for state machine acyclicity, queue discipline, and reader exclusivity invariant\noperator_camera.gd — delta parameter bug in _apply_swing_twist (was using get_process_delta_time() instead of passed delta)\nmultiplayer-fabric-godot local branches — tracking corrected from origin/master to their own origin/feat/* remotes\nmultiplayer-fabric-base local — reset to origin/multiplayer-fabric-base (local was stale reassembly before scu_build=yes fixes were applied)\nStale stashes dropped from multiplayer-fabric-godot (libriscv Win32 files already committed; openvr mode-change noise; empty archived-branch stash)"
-  },
-  {
-    "objectID": "changelog/2026/20260425-deck-log.html#security",
-    "href": "changelog/2026/20260425-deck-log.html#security",
-    "title": "V-Sekai Fire Deck Log — 2026-04-25 (Saturday)",
-    "section": "",
-    "text": "Rotated Cloudflare Turnstile keys (were plaintext in .env)"
-  },
-  {
-    "objectID": "changelog/2026/20260506-deck-log.html",
-    "href": "changelog/2026/20260506-deck-log.html",
-    "title": "V-Sekai Fire Deck Log — 2026-05-06 (Wednesday)",
-    "section": "",
-    "text": "Date: 2026-05-06\n\n\n\nWebTransport gateway (Elixir) deployed at gateway.chibifire.com and gateway-cdb4.chibifire.com\nCockroachDB with mTLS deployed as multiplayer-fabric-crdb; admin UI accessible via flyctl proxy\nUro zone backend deployed at hub.chibifire.com and bake.chibifire.com\nObservability stack: VictoriaMetrics (8428), VictoriaLogs (9428), VictoriaTraces (10428), OTEL Collector (4317/4318) on single Fly Machine\nBaker (headless Godot asset exporter) deployed as multiplayer-fabric-baker\nZone server pipeline: Godot template_release binary build in multiplayer-fabric-zone\nTerraform infra management in multiplayer-fabric-infra with state on tfstate branch\nDaily CRDB backup to Tigris via restic\nDNS records for hub, bake, zone subdomains on chibifire.com\nAGENTS.md documentation across all repos\nThis manuals repo was created\nProposal template (decisions/present-proposal-template.md) ported from v-sekai/manuals\nreferences.bib with networking, multiplayer, Godot, CockroachDB, and infrastructure entries migrated from v-sekai/manuals\nReferences page wired into Quarto (_quarto.yml bibliography + references.qmd)\n\n\n\n\n\nZone binary GHCR push: renamed image to multiplayer-fabric-zone-godot (package ownership tied to creating repo)\nTerraform: renamed my-crdb-node to multiplayer-fabric-crdb throughout state, configs, and scripts\nBaker deploy: dropped curl package (conflicts with curl-minimal pre-installed in AlmaLinux 9)\nBuild CI: excluded web from editor merge and release jobs (web only builds template_release)\nGrafana Tempo v3: removed renamed ingester/compactor config keys; added -target=all (subsequently replaced by Jaeger, then VictoriaTraces)\nReplaced Grafana Tempo (AGPL-3.0) with Jaeger all-in-one (Apache 2.0), then replaced Jaeger with VictoriaTraces (Apache 2.0) to unify storage under the VictoriaMetrics vendor; trace UI moved to port 10428\nDeslopified observability ADRs against tropes.fyi: removed vague attribution (“claims”), marketing language (“unified vendor stack”, “natural replacement”, “standard pairing”), unicode arrows, and “ecosystem”"
-  },
-  {
-    "objectID": "changelog/2026/20260506-deck-log.html#added",
-    "href": "changelog/2026/20260506-deck-log.html#added",
-    "title": "V-Sekai Fire Deck Log — 2026-05-06 (Wednesday)",
-    "section": "",
-    "text": "WebTransport gateway (Elixir) deployed at gateway.chibifire.com and gateway-cdb4.chibifire.com\nCockroachDB with mTLS deployed as multiplayer-fabric-crdb; admin UI accessible via flyctl proxy\nUro zone backend deployed at hub.chibifire.com and bake.chibifire.com\nObservability stack: VictoriaMetrics (8428), VictoriaLogs (9428), VictoriaTraces (10428), OTEL Collector (4317/4318) on single Fly Machine\nBaker (headless Godot asset exporter) deployed as multiplayer-fabric-baker\nZone server pipeline: Godot template_release binary build in multiplayer-fabric-zone\nTerraform infra management in multiplayer-fabric-infra with state on tfstate branch\nDaily CRDB backup to Tigris via restic\nDNS records for hub, bake, zone subdomains on chibifire.com\nAGENTS.md documentation across all repos\nThis manuals repo was created\nProposal template (decisions/present-proposal-template.md) ported from v-sekai/manuals\nreferences.bib with networking, multiplayer, Godot, CockroachDB, and infrastructure entries migrated from v-sekai/manuals\nReferences page wired into Quarto (_quarto.yml bibliography + references.qmd)"
-  },
-  {
-    "objectID": "changelog/2026/20260506-deck-log.html#fixed",
-    "href": "changelog/2026/20260506-deck-log.html#fixed",
-    "title": "V-Sekai Fire Deck Log — 2026-05-06 (Wednesday)",
-    "section": "",
-    "text": "Zone binary GHCR push: renamed image to multiplayer-fabric-zone-godot (package ownership tied to creating repo)\nTerraform: renamed my-crdb-node to multiplayer-fabric-crdb throughout state, configs, and scripts\nBaker deploy: dropped curl package (conflicts with curl-minimal pre-installed in AlmaLinux 9)\nBuild CI: excluded web from editor merge and release jobs (web only builds template_release)\nGrafana Tempo v3: removed renamed ingester/compactor config keys; added -target=all (subsequently replaced by Jaeger, then VictoriaTraces)\nReplaced Grafana Tempo (AGPL-3.0) with Jaeger all-in-one (Apache 2.0), then replaced Jaeger with VictoriaTraces (Apache 2.0) to unify storage under the VictoriaMetrics vendor; trace UI moved to port 10428\nDeslopified observability ADRs against tropes.fyi: removed vague attribution (“claims”), marketing language (“unified vendor stack”, “natural replacement”, “standard pairing”), unicode arrows, and “ecosystem”"
-  },
-  {
-    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html",
-    "href": "decisions/20260607-tenseless-continuous-present-voice.html",
-    "title": "Comments and docs use a tenseless continuous-present voice",
-    "section": "",
-    "text": "Manuals › Decisions › Comments and docs use a tenseless continuous-present voice\nStatus: accepted"
-  },
-  {
-    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#context-and-problem-statement",
-    "href": "decisions/20260607-tenseless-continuous-present-voice.html#context-and-problem-statement",
-    "title": "Comments and docs use a tenseless continuous-present voice",
-    "section": "Context and Problem Statement",
-    "text": "Context and Problem Statement\nComments and documentation drift out of sync with code as the system changes. A comment written as history (“added a cache”, “we removed the old path”) or as a plan (“will solve this”, “TODO: wire X”) describes a moment that has passed or has not yet arrived, so a reader cannot check it against the code in front of them. How should prose in this repo phrase what it says about the system?"
-  },
-  {
-    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#decision-drivers",
-    "href": "decisions/20260607-tenseless-continuous-present-voice.html#decision-drivers",
-    "title": "Comments and docs use a tenseless continuous-present voice",
-    "section": "Decision Drivers",
-    "text": "Decision Drivers\n\nA reader trusts a comment when it matches the code as it stands.\nHistory lives in git; plans live in issues and decision records.\nThe rule stays mechanical enough to apply in review without debate."
-  },
-  {
-    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#considered-options",
-    "href": "decisions/20260607-tenseless-continuous-present-voice.html#considered-options",
-    "title": "Comments and docs use a tenseless continuous-present voice",
-    "section": "Considered Options",
-    "text": "Considered Options\n\nFree choice of tense per author.\nPast-tense changelog voice inside code comments.\nA tenseless continuous-present voice where every sentence states what is currently true of the system."
-  },
-  {
-    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#decision-outcome",
-    "href": "decisions/20260607-tenseless-continuous-present-voice.html#decision-outcome",
-    "title": "Comments and docs use a tenseless continuous-present voice",
-    "section": "Decision Outcome",
-    "text": "Decision Outcome\nChosen option: “a tenseless continuous-present voice”, because a sentence that states a present truth stays correct as long as the code it describes stays the same, and goes stale visibly the moment the code changes.\nEvery comment and documentation sentence states what is currently true of the system. Prose describes behaviour (“the parser streams tokens”), and an unfinished area reads as a present gap (“the parser handles no Unicode escapes yet”) rather than as a task or a past edit. The voice covers code comments, doc pages, and decision records alike.\nThe voice rules out three habits:\n\nPast-tense narration of edits, such as “removed the legacy path” or “we switched to a queue”.\nFuture or imperative planning, such as “will add validation” or “TODO: handle retries”.\nTemporal qualifiers that age, such as “now”, “currently changed”, or “previously”.\n\nA TODO document states each open item as a present gap, so the file reads as a description of where the system stands rather than a logbook of intentions.\n\nConsequences\n\nGood, because a stale sentence signals a real divergence from the code, which makes review catch it.\nGood, because one voice covers code comments, doc pages, and decision records.\nBad, because a present-gap phrasing reads less naturally than an imperative TODO, and authors need practice to phrase work that way.\n\n\n\nConfirmation\nReview checks that new comments and prose state present truths, with no past-tense edit narration, no future or imperative planning, and no aging temporal qualifiers. The existing decision records in this repo already read this way."
-  },
-  {
-    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#more-information",
-    "href": "decisions/20260607-tenseless-continuous-present-voice.html#more-information",
-    "title": "Comments and docs use a tenseless continuous-present voice",
-    "section": "More Information",
-    "text": "More Information\nThis generalizes the house rule applied across the sinew Lean spec and its native viewer prose, where comments describe current behaviour and todo.md lists each open item as a present gap."
-  },
-  {
-    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#related",
-    "href": "decisions/20260607-tenseless-continuous-present-voice.html#related",
-    "title": "Comments and docs use a tenseless continuous-present voice",
-    "section": "Related",
-    "text": "Related\n\nCommit messages use sentence case without Conventional Commits prefixes"
-  },
-  {
-    "objectID": "decisions/20260606-archival-file-naming-convention.html",
-    "href": "decisions/20260606-archival-file-naming-convention.html",
-    "title": "Archival file naming convention for committed assets",
-    "section": "",
-    "text": "Manuals › Decisions › Archival file naming convention for committed assets\nTier: baseline · Status: accepted"
-  },
-  {
-    "objectID": "decisions/20260606-archival-file-naming-convention.html#context-and-problem-statement",
-    "href": "decisions/20260606-archival-file-naming-convention.html#context-and-problem-statement",
-    "title": "Archival file naming convention for committed assets",
-    "section": "Context and Problem Statement",
-    "text": "Context and Problem Statement\nThe manuals repo now commits binary assets alongside prose, starting with screenshots under decisions/attachments/. Ad-hoc names like image.png collide, sort poorly, and lose their provenance once they leave the page that referenced them. What naming convention should committed assets follow so they stay unique, sortable, and self-describing?"
-  },
-  {
-    "objectID": "decisions/20260606-archival-file-naming-convention.html#decision-drivers",
-    "href": "decisions/20260606-archival-file-naming-convention.html#decision-drivers",
-    "title": "Archival file naming convention for committed assets",
-    "section": "Decision Drivers",
-    "text": "Decision Drivers\n\nNames should be unique and not collide across decisions.\nNames should sort chronologically and read as self-describing.\nNames should survive being copied out of the repo (provenance in the name).\nThe convention should match established digital-preservation guidance."
-  },
-  {
-    "objectID": "decisions/20260606-archival-file-naming-convention.html#considered-options",
-    "href": "decisions/20260606-archival-file-naming-convention.html#considered-options",
-    "title": "Archival file naming convention for committed assets",
-    "section": "Considered Options",
-    "text": "Considered Options\n\nKeep source names (image.png, screenshot (1).png).\nContent hash names (a1b2c3.png).\nA Library of Congress style descriptive convention."
-  },
-  {
-    "objectID": "decisions/20260606-archival-file-naming-convention.html#decision-outcome",
-    "href": "decisions/20260606-archival-file-naming-convention.html#decision-outcome",
-    "title": "Archival file naming convention for committed assets",
-    "section": "Decision Outcome",
-    "text": "Decision Outcome\nChosen option: “A Library of Congress style descriptive convention”, because it follows recognized preservation guidance and yields names that sort and explain themselves.\nThe pattern:\nYYYYMMDD_project_description_NNNN.ext\nFollowing the Library of Congress file-naming guidance:\n\nLowercase ASCII only; no spaces or special characters.\nISO 8601 date first (YYYYMMDD) so names sort chronologically.\nFacets separated by underscores (_); words within a facet by hyphens (-).\nA zero-padded sequence (NNNN) to keep same-day captures unique and ordered.\nDescriptive but reasonably short.\n\nExample, used for the first committed screenshot:\n20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png\nEach committed asset also gets a BibTeX entry in references.bib recording its capture date and archived path, so the References page lists it.\n\nConsequences\n\nGood: assets are unique, sort by date, and carry their provenance in the name.\nGood: the convention matches preservation practice and is mechanical to apply.\nBad: names are longer than source names, and renaming on import is a manual step.\n\n\n\nConfirmation\nAssets under decisions/attachments/ match YYYYMMDD_project_description_NNNN.ext and have a matching references.bib entry. The first example is 20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png, cited from the presence-demo decision."
-  },
-  {
-    "objectID": "decisions/20260606-archival-file-naming-convention.html#more-information",
-    "href": "decisions/20260606-archival-file-naming-convention.html#more-information",
-    "title": "Archival file naming convention for committed assets",
-    "section": "More Information",
-    "text": "More Information\nBased on the Library of Congress guidance on file naming for digital preservation (descriptive, no spaces, lowercase, ISO dates, zero-padded sequences)."
-  },
-  {
-    "objectID": "decisions/20260606-archival-file-naming-convention.html#related",
-    "href": "decisions/20260606-archival-file-naming-convention.html#related",
-    "title": "Archival file naming convention for committed assets",
-    "section": "Related",
-    "text": "Related\n\nV-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)"
-  },
-  {
-    "objectID": "decisions/20260609-commit-messages-sentence-case.html",
-    "href": "decisions/20260609-commit-messages-sentence-case.html",
-    "title": "Commit messages use sentence case without Conventional Commits prefixes",
-    "section": "",
-    "text": "Manuals › Decisions › Commit messages use sentence case without Conventional Commits prefixes\nStatus: accepted"
-  },
-  {
-    "objectID": "decisions/20260609-commit-messages-sentence-case.html#context-and-problem-statement",
-    "href": "decisions/20260609-commit-messages-sentence-case.html#context-and-problem-statement",
-    "title": "Commit messages use sentence case without Conventional Commits prefixes",
-    "section": "Context and Problem Statement",
-    "text": "Context and Problem Statement\nA commit subject is the first line a reader meets in git log, a blame, or a release note. Two conventions compete for how it reads. Conventional Commits prefixes each subject with a machine-readable type and optional scope, such as feat: or fix(parser):, and lower-cases the summary that follows. Plain prose writes the subject as an ordinary capitalised sentence. How should a commit subject in this repo read?"
-  },
-  {
-    "objectID": "decisions/20260609-commit-messages-sentence-case.html#decision-drivers",
-    "href": "decisions/20260609-commit-messages-sentence-case.html#decision-drivers",
-    "title": "Commit messages use sentence case without Conventional Commits prefixes",
-    "section": "Decision Drivers",
-    "text": "Decision Drivers\n\nA reader scans the subject as a sentence first, and the meaning sits at the front rather than after a colon.\nThe repos here run no tooling that consumes a commit type: no semantic-release, no changelog keyed on feat or fix.\nOne rule covers every commit, so review needs no judgement about which type applies."
-  },
-  {
-    "objectID": "decisions/20260609-commit-messages-sentence-case.html#considered-options",
-    "href": "decisions/20260609-commit-messages-sentence-case.html#considered-options",
-    "title": "Commit messages use sentence case without Conventional Commits prefixes",
-    "section": "Considered Options",
-    "text": "Considered Options\n\nConventional Commits, with a type(scope): prefix on every subject.\nSentence-case prose subjects with no prefix.\nFree choice of style per author."
-  },
-  {
-    "objectID": "decisions/20260609-commit-messages-sentence-case.html#decision-outcome",
-    "href": "decisions/20260609-commit-messages-sentence-case.html#decision-outcome",
-    "title": "Commit messages use sentence case without Conventional Commits prefixes",
-    "section": "Decision Outcome",
-    "text": "Decision Outcome\nChosen option: sentence-case prose with no prefix, because the subject stays a sentence a reader understands on sight, and the repos gain nothing from a commit type that no tool reads.\nA commit subject opens with a capital letter and reads as a plain sentence, such as Add the macOS and Windows release workflows. It carries no feat:, fix:, chore:, or type(scope): prefix, and no trailing period. The body, where present, states what the change makes true of the system and why.\n\nConsequences\n\nGood, because the subject reads as a summary on its own, with nothing to strip before the meaning.\nGood, because the rule holds for every commit, so no author weighs whether a change counts as a feat or a fix.\nBad, because a changelog tool that groups commits by type finds no signal here, so adopting one later needs a different marker or a history rewrite.\n\n\n\nConfirmation\nReview reads each subject as a capitalised sentence with no type prefix and no trailing period. The history after this decision shows subjects in that form."
-  },
-  {
-    "objectID": "decisions/20260609-commit-messages-sentence-case.html#more-information",
-    "href": "decisions/20260609-commit-messages-sentence-case.html#more-information",
-    "title": "Commit messages use sentence case without Conventional Commits prefixes",
-    "section": "More Information",
-    "text": "More Information\nThis pairs with the tenseless continuous-present voice (20260607-tenseless-continuous-present-voice.md): a commit body states what the change makes true of the system, the same way comments and docs do."
-  },
-  {
-    "objectID": "decisions/20260609-commit-messages-sentence-case.html#related",
-    "href": "decisions/20260609-commit-messages-sentence-case.html#related",
-    "title": "Commit messages use sentence case without Conventional Commits prefixes",
-    "section": "Related",
-    "text": "Related\n\nComments and docs use a tenseless continuous-present voice"
-  },
-  {
-    "objectID": "changelog.html",
-    "href": "changelog.html",
-    "title": "Changelog",
-    "section": "",
-    "text": "Manuals › Changelog\nAll notable changes are documented here. Format based on Keep a Changelog.\nAdded — new features. Changed — changes in existing functionality. Fixed — bug fixes. Removed — removed features.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\nV-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)\n\n\n\n\n\n\nV-Sekai Fire Deck Log — 2026-05-07 (Thursday)\n\n\n\n\n\n\nV-Sekai Fire Deck Log — 2026-05-06 (Wednesday)\n\n\n\n\n\n\nV-Sekai Fire Deck Log — 2026-04-25 (Saturday)\n\n\n\n\n\n\nV-Sekai Fire Deck Log — 2026-04-21 (Tuesday)\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html",
-    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html",
-    "title": "Feature classification — proof of concept, baseline, stretch",
-    "section": "",
-    "text": "Manuals › Decisions › Feature classification — proof of concept, baseline, stretch\nTier: baseline · Status: accepted"
-  },
-  {
-    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#context-and-problem-statement",
-    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#context-and-problem-statement",
-    "title": "Feature classification — proof of concept, baseline, stretch",
-    "section": "Context and Problem Statement",
-    "text": "Context and Problem Statement\nThe capabilities table lists features with a free-text status (“working”, “loses about 90%”). Free text does not say whether a feature is a throwaway experiment, a committed part of the product, or a nice-to-have. The team needs one shared vocabulary for how far along and how committed a feature is, so planning and the docs agree on what “done” means for each one."
-  },
-  {
-    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-drivers",
-    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-drivers",
-    "title": "Feature classification — proof of concept, baseline, stretch",
-    "section": "Decision Drivers",
-    "text": "Decision Drivers\n\nOne vocabulary shared between planning and the manuals.\nA reader should know at a glance whether a feature is committed or exploratory.\nCheap to apply and to move as a feature matures."
-  },
-  {
-    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#considered-options",
-    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#considered-options",
-    "title": "Feature classification — proof of concept, baseline, stretch",
-    "section": "Considered Options",
-    "text": "Considered Options\n\nKeep free-text status only.\nA maturity ladder (alpha / beta / stable).\nA three-tier commitment classification: proof of concept, baseline, stretch."
-  },
-  {
-    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-outcome",
-    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-outcome",
-    "title": "Feature classification — proof of concept, baseline, stretch",
-    "section": "Decision Outcome",
-    "text": "Decision Outcome\nChosen option: “A three-tier commitment classification”, because it captures commitment, not just maturity, which is what planning needs.\nThe tiers:\n\nA proof of concept demonstrates the idea works end to end, in partial or throwaway form. It may be unreliable or lossy, and nothing depends on it yet.\nThe baseline is the committed minimum the product ships. It works reliably across the target platforms, and is the bar.\nA stretch goal goes beyond baseline. It is pursued if time allows; cutting it does not block the release.\n\nEach feature in the capabilities table carries one tier. A feature moves between tiers as it matures or as commitment changes; the tier is the current call, not a permanent label.\n\nInitial triage\n\nNative video playback — baseline.\nScene baking via OpenUSD — baseline.\nSpatial audio (HRTF + audio probes) — baseline.\nSpeech — baseline.\nPen stroke creation (cassie) — proof of concept (patch surface creation loses about 90%).\n\n\n\nConsequences\n\nGood: planning and docs share one word per feature for its commitment level.\nGood: the tier is a small, reversible edit as features move.\nBad: a tier is a judgement call and can drift from reality if the table is not kept current.\n\n\n\nConfirmation\nThe capabilities table has a Tier column, and every row carries one of the three tiers. New capabilities are added with a tier."
-  },
-  {
-    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#related",
-    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#related",
-    "title": "Feature classification — proof of concept, baseline, stretch",
-    "section": "Related",
-    "text": "Related\n\nV-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)"
-  },
-  {
     "objectID": "decisions/present-proposal-template.html",
     "href": "decisions/present-proposal-template.html",
     "title": "[Proposal Title]",
@@ -378,88 +126,186 @@
     "text": "@misc{v_sekai_2026,\n  title = {V-Sekai},\n  year  = {2026},\n  url   = {https://v-sekai.org/}\n}"
   },
   {
-    "objectID": "changelog/2026/20260507-deck-log.html",
-    "href": "changelog/2026/20260507-deck-log.html",
-    "title": "V-Sekai Fire Deck Log — 2026-05-07 (Thursday)",
+    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html",
+    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html",
+    "title": "Feature classification — proof of concept, baseline, stretch",
     "section": "",
-    "text": "Date: 2026-05-07\n\n\n\nMaglev cycle 0 (infra) verified pass — all 4 pass criteria confirmed against the live Fly API via the verify_fly_state workflow on infra. Gateway machine e7845e1ef35768 started + IPv4 213.188.205.180; CRDB volume crdb_data 10GB iad attached; uro deploy succeeded; mTLS secrets present\nMaglev cycle 1 (gateway handshake) verified pass — cycle-tests/cycle-1-gateway-handshake/cycle1.gd completes a real-internet WebTransport/QUIC handshake against gateway.chibifire.com:443, sends a ping datagram, receives the gateway’s pong reply (~880 ms round-trip), exits 0\nNew repo cycle-tests — minimal headless Godot SceneTree per cycle that exercises pass criteria against live infrastructure; registered as submodule\nNew repo multiplayer-fabric-godot-maglev — canonical engine source for the build repo’s git subrepo, holding the assembled multiplayer-fabric-base and multiplayer-fabric branches\nobservability registered as submodule (previously missing — only ADRs existed)\nCycle 2 producer-side OTel export wired in three apps: gateway (gateway.dispatch span around Gateway.Router.handle/1), uro (auto-instrumented Phoenix + Ecto via :opentelemetry_phoenix + :opentelemetry_ecto), zone (engine’s module_open_telemetry initialized in bootstrapped project/main.gd); all ship to observability.internal:4318\nBootstrapped zone Godot project — project/project.godot + project/main.gd (the directory was an empty stub before)\nmaster branch on godot pinned to merge-base 835e2dcbba so future assemblies start from a stable upstream point\n10 single-topic feature branches replacing the kitchen-sink feat/engine-patches: feat/engine-misc, feat/tapered-capsule-shape, feat/crypto-extensions, feat/predictive-bvh, feat/uds-test-stability, feat/misc-cleanup, feat/lint-cleanup, feat/ci-fixes, feat/agents-docs, feat/fork-scaffolding (last is now unused)\nRead-only verification workflows on infra: verify_fly_state.yml, start_fly_apps.yml, verify_observability.yml — query Fly + Victoria* APIs and upload state as JSON artifacts so cycle verification doesn’t depend on log scraping or local flyctl auth\n\n\n\n\n\nbuild/godot/.gitrepo switched source from godot @ multiplayer-fabric (vendored via stale pinned SHA) to multiplayer-fabric-godot-maglev @ multiplayer-fabric-base (canonical assembled output)\nbuild test workflows consolidated: 6 per-feature-branch test-*.yaml files → one test-feature-branches.yaml with {branch, platform} matrix (396 → 73 lines)\nBaker + zone GHCR Godot binary builders now track build/main instead of stale pinned commit b27142e94c — picks up engine updates on next cron tick or workflow_dispatch\ndocker zone-fabric image switched from Mono Godot (with GodotSharp + .NET 8 runtime) to non-Mono GDScript build (precision=double); matches the assembled engine\nBranch protection on godot/multiplayer-fabric removed so update_godot_v_sekai.exs doesn’t trip the bypass warning on every assembly run\n\n\n\n\n\nZone deploy “Pull Godot zone binary from GHCR” failure — was pulling ghcr.io/v-sekai-fire/godot-zone-double:latest (no workflow ever published this name); switched to multiplayer-fabric-zone-godot:latest which the build workflow actually publishes\nDuplicate Control::call_gui_input declaration in scene/gui/control.h — the OTel branch declared it in the drag-and-drop section while engine-misc declared it in the input-events section; auto-merge kept both → compile error. Aligned both to declare it in input-events\nControl::call_gui_input body divergence — OTel branch had set_input_handled clobber-restore semantics, engine-misc had local_input_handled OR-restore. Aligned OTel to engine-misc verbatim so add/add merges produce identical content with no conflict\nCross-branch file overlap in the split feature branches — feat/engine-misc shed tests/scene/test_fabric_zone.cpp (belongs in feat/module-multiplayer-fabric); feat/fork-scaffolding shed AGENTS.md, core/math/predictive_bvh_adapter.h, tests/scene/test_fabric_zone.cpp (belong to agents-docs / predictive-bvh / fabric module respectively); feat/uds-test-stability shed the 5a2663346c re-add of test_fabric_zone; feat/lint-cleanup rewrote its .gitignore commit to add only .lake/ (was a kitchen-sink with sandbox/uro/keychain entries); feat/fix-picosocks-cmsghdr-mingw reset .gitignore to master and dropped predictive_bvh_adapter.h\nmbedtls/crypto_mbedtls.{cpp,h} was orphaned in feat/fork-scaffolding despite being the implementation backing the API in feat/crypto-extensions — moved into feat/crypto-extensions so the API and impl ship together\n\n\n\n\n\nstage multiplayer-fabric remotes/v-sekai-fire/multiplayer-fabric line from gitassembly — multiplayer-fabric-base is now the canonical assembled output; the redundant publish stage is gone\nfeat/engine-patches no longer referenced in gitassembly — superseded by the 10 split feature branches; kept as historical ref upstream\n6 stale per-feature-branch test workflows on build: test-engine-patches.yaml, test-module-http3.yaml, test-module-multiplayer-fabric.yaml, test-module-speech.yaml, test-multiplayer-fabric.yaml, test-open-telemetry.yaml — replaced by the consolidated matrix workflow\nfeat/fork-scaffolding from the active assembly path — feat/fix-picosocks-cmsghdr-mingw already provides equivalent CI/Docker scaffolding (14 of 16 files overlapped)"
+    "text": "Manuals › Decisions › Feature classification — proof of concept, baseline, stretch\nTier: baseline · Status: accepted"
   },
   {
-    "objectID": "changelog/2026/20260507-deck-log.html#added",
-    "href": "changelog/2026/20260507-deck-log.html#added",
-    "title": "V-Sekai Fire Deck Log — 2026-05-07 (Thursday)",
-    "section": "",
-    "text": "Maglev cycle 0 (infra) verified pass — all 4 pass criteria confirmed against the live Fly API via the verify_fly_state workflow on infra. Gateway machine e7845e1ef35768 started + IPv4 213.188.205.180; CRDB volume crdb_data 10GB iad attached; uro deploy succeeded; mTLS secrets present\nMaglev cycle 1 (gateway handshake) verified pass — cycle-tests/cycle-1-gateway-handshake/cycle1.gd completes a real-internet WebTransport/QUIC handshake against gateway.chibifire.com:443, sends a ping datagram, receives the gateway’s pong reply (~880 ms round-trip), exits 0\nNew repo cycle-tests — minimal headless Godot SceneTree per cycle that exercises pass criteria against live infrastructure; registered as submodule\nNew repo multiplayer-fabric-godot-maglev — canonical engine source for the build repo’s git subrepo, holding the assembled multiplayer-fabric-base and multiplayer-fabric branches\nobservability registered as submodule (previously missing — only ADRs existed)\nCycle 2 producer-side OTel export wired in three apps: gateway (gateway.dispatch span around Gateway.Router.handle/1), uro (auto-instrumented Phoenix + Ecto via :opentelemetry_phoenix + :opentelemetry_ecto), zone (engine’s module_open_telemetry initialized in bootstrapped project/main.gd); all ship to observability.internal:4318\nBootstrapped zone Godot project — project/project.godot + project/main.gd (the directory was an empty stub before)\nmaster branch on godot pinned to merge-base 835e2dcbba so future assemblies start from a stable upstream point\n10 single-topic feature branches replacing the kitchen-sink feat/engine-patches: feat/engine-misc, feat/tapered-capsule-shape, feat/crypto-extensions, feat/predictive-bvh, feat/uds-test-stability, feat/misc-cleanup, feat/lint-cleanup, feat/ci-fixes, feat/agents-docs, feat/fork-scaffolding (last is now unused)\nRead-only verification workflows on infra: verify_fly_state.yml, start_fly_apps.yml, verify_observability.yml — query Fly + Victoria* APIs and upload state as JSON artifacts so cycle verification doesn’t depend on log scraping or local flyctl auth"
+    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#context-and-problem-statement",
+    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#context-and-problem-statement",
+    "title": "Feature classification — proof of concept, baseline, stretch",
+    "section": "Context and Problem Statement",
+    "text": "Context and Problem Statement\nThe capabilities table lists features with a free-text status (“working”, “loses about 90%”). Free text does not say whether a feature is a throwaway experiment, a committed part of the product, or a nice-to-have. The team needs one shared vocabulary for how far along and how committed a feature is, so planning and the docs agree on what “done” means for each one."
   },
   {
-    "objectID": "changelog/2026/20260507-deck-log.html#changed",
-    "href": "changelog/2026/20260507-deck-log.html#changed",
-    "title": "V-Sekai Fire Deck Log — 2026-05-07 (Thursday)",
-    "section": "",
-    "text": "build/godot/.gitrepo switched source from godot @ multiplayer-fabric (vendored via stale pinned SHA) to multiplayer-fabric-godot-maglev @ multiplayer-fabric-base (canonical assembled output)\nbuild test workflows consolidated: 6 per-feature-branch test-*.yaml files → one test-feature-branches.yaml with {branch, platform} matrix (396 → 73 lines)\nBaker + zone GHCR Godot binary builders now track build/main instead of stale pinned commit b27142e94c — picks up engine updates on next cron tick or workflow_dispatch\ndocker zone-fabric image switched from Mono Godot (with GodotSharp + .NET 8 runtime) to non-Mono GDScript build (precision=double); matches the assembled engine\nBranch protection on godot/multiplayer-fabric removed so update_godot_v_sekai.exs doesn’t trip the bypass warning on every assembly run"
+    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-drivers",
+    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-drivers",
+    "title": "Feature classification — proof of concept, baseline, stretch",
+    "section": "Decision Drivers",
+    "text": "Decision Drivers\n\nOne vocabulary shared between planning and the manuals.\nA reader should know at a glance whether a feature is committed or exploratory.\nCheap to apply and to move as a feature matures."
   },
   {
-    "objectID": "changelog/2026/20260507-deck-log.html#fixed",
-    "href": "changelog/2026/20260507-deck-log.html#fixed",
-    "title": "V-Sekai Fire Deck Log — 2026-05-07 (Thursday)",
-    "section": "",
-    "text": "Zone deploy “Pull Godot zone binary from GHCR” failure — was pulling ghcr.io/v-sekai-fire/godot-zone-double:latest (no workflow ever published this name); switched to multiplayer-fabric-zone-godot:latest which the build workflow actually publishes\nDuplicate Control::call_gui_input declaration in scene/gui/control.h — the OTel branch declared it in the drag-and-drop section while engine-misc declared it in the input-events section; auto-merge kept both → compile error. Aligned both to declare it in input-events\nControl::call_gui_input body divergence — OTel branch had set_input_handled clobber-restore semantics, engine-misc had local_input_handled OR-restore. Aligned OTel to engine-misc verbatim so add/add merges produce identical content with no conflict\nCross-branch file overlap in the split feature branches — feat/engine-misc shed tests/scene/test_fabric_zone.cpp (belongs in feat/module-multiplayer-fabric); feat/fork-scaffolding shed AGENTS.md, core/math/predictive_bvh_adapter.h, tests/scene/test_fabric_zone.cpp (belong to agents-docs / predictive-bvh / fabric module respectively); feat/uds-test-stability shed the 5a2663346c re-add of test_fabric_zone; feat/lint-cleanup rewrote its .gitignore commit to add only .lake/ (was a kitchen-sink with sandbox/uro/keychain entries); feat/fix-picosocks-cmsghdr-mingw reset .gitignore to master and dropped predictive_bvh_adapter.h\nmbedtls/crypto_mbedtls.{cpp,h} was orphaned in feat/fork-scaffolding despite being the implementation backing the API in feat/crypto-extensions — moved into feat/crypto-extensions so the API and impl ship together"
+    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#considered-options",
+    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#considered-options",
+    "title": "Feature classification — proof of concept, baseline, stretch",
+    "section": "Considered Options",
+    "text": "Considered Options\n\nKeep free-text status only.\nA maturity ladder (alpha / beta / stable).\nA three-tier commitment classification: proof of concept, baseline, stretch."
   },
   {
-    "objectID": "changelog/2026/20260507-deck-log.html#removed",
-    "href": "changelog/2026/20260507-deck-log.html#removed",
-    "title": "V-Sekai Fire Deck Log — 2026-05-07 (Thursday)",
-    "section": "",
-    "text": "stage multiplayer-fabric remotes/v-sekai-fire/multiplayer-fabric line from gitassembly — multiplayer-fabric-base is now the canonical assembled output; the redundant publish stage is gone\nfeat/engine-patches no longer referenced in gitassembly — superseded by the 10 split feature branches; kept as historical ref upstream\n6 stale per-feature-branch test workflows on build: test-engine-patches.yaml, test-module-http3.yaml, test-module-multiplayer-fabric.yaml, test-module-speech.yaml, test-multiplayer-fabric.yaml, test-open-telemetry.yaml — replaced by the consolidated matrix workflow\nfeat/fork-scaffolding from the active assembly path — feat/fix-picosocks-cmsghdr-mingw already provides equivalent CI/Docker scaffolding (14 of 16 files overlapped)"
+    "objectID": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-outcome",
+    "href": "decisions/20260606-feature-classification-poc-baseline-stretch.html#decision-outcome",
+    "title": "Feature classification — proof of concept, baseline, stretch",
+    "section": "Decision Outcome",
+    "text": "Decision Outcome\nChosen option: “A three-tier commitment classification”, because it captures commitment, not just maturity, which is what planning needs.\nThe tiers:\n\nA proof of concept demonstrates the idea works end to end, in partial or throwaway form. It may be unreliable or lossy, and nothing depends on it yet.\nThe baseline is the committed minimum the product ships. It works reliably across the target platforms, and is the bar.\nA stretch goal goes beyond baseline. It is pursued if time allows; cutting it does not block the release.\n\nEach feature in the capabilities table carries one tier. A feature moves between tiers as it matures or as commitment changes; the tier is the current call, not a permanent label.\n\nInitial triage\n\nNative video playback — baseline.\nScene baking via OpenUSD — baseline.\nSpatial audio (HRTF + audio probes) — baseline.\nSpeech — baseline.\nPen stroke creation (cassie) — proof of concept (patch surface creation loses about 90%).\n\n\n\nConsequences\n\nGood: planning and docs share one word per feature for its commitment level.\nGood: the tier is a small, reversible edit as features move.\nBad: a tier is a judgement call and can drift from reality if the table is not kept current.\n\n\n\nConfirmation\nThe capabilities table has a Tier column, and every row carries one of the three tiers. New capabilities are added with a tier."
   },
   {
-    "objectID": "changelog/2026/20260421-deck-log.html",
-    "href": "changelog/2026/20260421-deck-log.html",
-    "title": "V-Sekai Fire Deck Log — 2026-04-21 (Tuesday)",
+    "objectID": "changelog.html",
+    "href": "changelog.html",
+    "title": "Changelog",
     "section": "",
-    "text": "Date: 2026-04-21\nBackdated from multiplayer-fabric/CHANGELOG.md [0.1.0].\n\n\n\nInfinite Aquarium (Jellyfish Game) proof-of-concept: zone networking, RECTGTN jellyfish behaviour planning, UGC asset pipeline, ReBAC permissions\nquic_web_glue.js — browser WebTransport glue for Godot web export\nweb_transport_peer.cpp — poll_incoming_func + _web_poll_incoming()\nSCsub — env.Append(JS_LIBS=[...]) fix so the JS library reaches the linker\nmanuals ADR corpus: 517 ADRs tagged with filename slug; tag_adrs.exs, linkify_adrs.exs, audit_tropes.exs, fix_bold_bullets.exs scripts; bold-first bullet trope fixed across 104 files (578 labels stripped); verbatim template heading replaced with “Design” in 309 files"
+    "text": "Manuals › Changelog\nAll notable changes are documented here. Format based on Keep a Changelog.\nAdded — new features. Changed — changes in existing functionality. Fixed — bug fixes. Removed — removed features.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "changelog/2026/20260421-deck-log.html#added",
-    "href": "changelog/2026/20260421-deck-log.html#added",
-    "title": "V-Sekai Fire Deck Log — 2026-04-21 (Tuesday)",
+    "objectID": "decisions/20260609-commit-messages-sentence-case.html",
+    "href": "decisions/20260609-commit-messages-sentence-case.html",
+    "title": "Commit messages use sentence case without Conventional Commits prefixes",
     "section": "",
-    "text": "Infinite Aquarium (Jellyfish Game) proof-of-concept: zone networking, RECTGTN jellyfish behaviour planning, UGC asset pipeline, ReBAC permissions\nquic_web_glue.js — browser WebTransport glue for Godot web export\nweb_transport_peer.cpp — poll_incoming_func + _web_poll_incoming()\nSCsub — env.Append(JS_LIBS=[...]) fix so the JS library reaches the linker\nmanuals ADR corpus: 517 ADRs tagged with filename slug; tag_adrs.exs, linkify_adrs.exs, audit_tropes.exs, fix_bold_bullets.exs scripts; bold-first bullet trope fixed across 104 files (578 labels stripped); verbatim template heading replaced with “Design” in 309 files"
+    "text": "Manuals › Decisions › Commit messages use sentence case without Conventional Commits prefixes\nStatus: accepted"
   },
   {
-    "objectID": "changelog/2026/20260606-deck-log.html",
-    "href": "changelog/2026/20260606-deck-log.html",
-    "title": "V-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)",
-    "section": "",
-    "text": "Date: 2026-06-06\nA documentation sprint on the manuals: brought the repo map onto the live org, recorded the day’s decisions as MADRs, and built the site’s metadata, navigation, and quality gates.\n\n\n\nDecisions (MADR): compiling the engine, two-org split, require PR + merge queue, feature classification, pin engine to Godot 4.7, archival file naming, self-host on Harvester, and bound the LLM steering queue.\nCapability decisions: spatial audio (HRTF + probes), WebTransport over HTTP/3, presence pose networking, presence demo → human-readable markers → ghostly ANNY/SOMA-X body, and art-game loop steel thread.\nA capabilities table in index.md mapping native video, OpenUSD baking, spatial audio, speech, pen-stroke (cassie), WebTransport, and presence to engine branches, repos, and a tier.\nCI: a Checks workflow running prek (prettier) and a static, no-LLM tropes gate; a merge-queue ruleset on main (require PR + squash queue).\nA Python (panflute) filter showing tier/status per page, linking superseded-by targets, with a breadcrumb trail on top and a symmetric Related section at the bottom across the site.\nReferences for MaterialX, OpenUSD, Slug, Resonance Audio, sccache, MADR, tropes.fyi, Vulkan Video, Harvester, ANNY, SOMA-X, and the uncanny-valley papers.\n\n\n\n\n\nRewrote the index.md repository map for the live v-sekai-multiplayer-fabric org, grouped by role, with a cross-org “Still on V-Sekai-fire” section.\nAGENTS.md: adopted the MADR template and documented the tier, asset-naming, prek/tropes, merge-queue, and no-absolute-paths conventions.\n_quarto.yml: URLs point at the live org; the decisions index is sortable with Tier, Status, and Date columns.\nGave every decision a tier (proof of concept / baseline / stretch) and a frontmatter status; converted the maglev-cycle docs to MADR frontmatter.\nGeneralized the build SOP onto GODOT_SRC / GODOT_BUILD_CACHE env vars, removing hardcoded absolute paths.\nSet decision-makers to K. S. Ernest (iFire) Lee (lyuma consulted on the classification).\nNoted Harvester deployment on the active observability decisions.\n\n\n\n\n\nCorrected the presence demo (a skinned-mesh hero-asset landmark, not a VRM or a player; orbs encode head/hand pose) and spatial audio (Resonance Audio is abandoned upstream; the engine is pinned to 4.7).\nDead supersede links: status frontmatter held a .md link the listing did not rewrite, so statuses now hold a plain filename with the link in the body.\nBreadcrumb and Related links: the filter ran with the document’s directory as its cwd, so it is now anchored to QUARTO_PROJECT_DIR.\nFormatted the legacy markdown so the whole-repo prettier gate passes.\n\n\n\n\n\nClosed the stale maglev-cycle proposals (cycles 2–12 and the intercept) as rejected, leaving the live direction as the only open proposals.\nDropped Fly.io as the deployment target, superseded by self-hosting on Harvester."
+    "objectID": "decisions/20260609-commit-messages-sentence-case.html#context-and-problem-statement",
+    "href": "decisions/20260609-commit-messages-sentence-case.html#context-and-problem-statement",
+    "title": "Commit messages use sentence case without Conventional Commits prefixes",
+    "section": "Context and Problem Statement",
+    "text": "Context and Problem Statement\nA commit subject is the first line a reader meets in git log, a blame, or a release note. Two conventions compete for how it reads. Conventional Commits prefixes each subject with a machine-readable type and optional scope, such as feat: or fix(parser):, and lower-cases the summary that follows. Plain prose writes the subject as an ordinary capitalised sentence. How should a commit subject in this repo read?"
   },
   {
-    "objectID": "changelog/2026/20260606-deck-log.html#added",
-    "href": "changelog/2026/20260606-deck-log.html#added",
-    "title": "V-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)",
-    "section": "",
-    "text": "Decisions (MADR): compiling the engine, two-org split, require PR + merge queue, feature classification, pin engine to Godot 4.7, archival file naming, self-host on Harvester, and bound the LLM steering queue.\nCapability decisions: spatial audio (HRTF + probes), WebTransport over HTTP/3, presence pose networking, presence demo → human-readable markers → ghostly ANNY/SOMA-X body, and art-game loop steel thread.\nA capabilities table in index.md mapping native video, OpenUSD baking, spatial audio, speech, pen-stroke (cassie), WebTransport, and presence to engine branches, repos, and a tier.\nCI: a Checks workflow running prek (prettier) and a static, no-LLM tropes gate; a merge-queue ruleset on main (require PR + squash queue).\nA Python (panflute) filter showing tier/status per page, linking superseded-by targets, with a breadcrumb trail on top and a symmetric Related section at the bottom across the site.\nReferences for MaterialX, OpenUSD, Slug, Resonance Audio, sccache, MADR, tropes.fyi, Vulkan Video, Harvester, ANNY, SOMA-X, and the uncanny-valley papers."
+    "objectID": "decisions/20260609-commit-messages-sentence-case.html#decision-drivers",
+    "href": "decisions/20260609-commit-messages-sentence-case.html#decision-drivers",
+    "title": "Commit messages use sentence case without Conventional Commits prefixes",
+    "section": "Decision Drivers",
+    "text": "Decision Drivers\n\nA reader scans the subject as a sentence first, and the meaning sits at the front rather than after a colon.\nThe repos here run no tooling that consumes a commit type: no semantic-release, no changelog keyed on feat or fix.\nOne rule covers every commit, so review needs no judgement about which type applies."
   },
   {
-    "objectID": "changelog/2026/20260606-deck-log.html#changed",
-    "href": "changelog/2026/20260606-deck-log.html#changed",
-    "title": "V-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)",
-    "section": "",
-    "text": "Rewrote the index.md repository map for the live v-sekai-multiplayer-fabric org, grouped by role, with a cross-org “Still on V-Sekai-fire” section.\nAGENTS.md: adopted the MADR template and documented the tier, asset-naming, prek/tropes, merge-queue, and no-absolute-paths conventions.\n_quarto.yml: URLs point at the live org; the decisions index is sortable with Tier, Status, and Date columns.\nGave every decision a tier (proof of concept / baseline / stretch) and a frontmatter status; converted the maglev-cycle docs to MADR frontmatter.\nGeneralized the build SOP onto GODOT_SRC / GODOT_BUILD_CACHE env vars, removing hardcoded absolute paths.\nSet decision-makers to K. S. Ernest (iFire) Lee (lyuma consulted on the classification).\nNoted Harvester deployment on the active observability decisions."
+    "objectID": "decisions/20260609-commit-messages-sentence-case.html#considered-options",
+    "href": "decisions/20260609-commit-messages-sentence-case.html#considered-options",
+    "title": "Commit messages use sentence case without Conventional Commits prefixes",
+    "section": "Considered Options",
+    "text": "Considered Options\n\nConventional Commits, with a type(scope): prefix on every subject.\nSentence-case prose subjects with no prefix.\nFree choice of style per author."
   },
   {
-    "objectID": "changelog/2026/20260606-deck-log.html#fixed",
-    "href": "changelog/2026/20260606-deck-log.html#fixed",
-    "title": "V-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)",
-    "section": "",
-    "text": "Corrected the presence demo (a skinned-mesh hero-asset landmark, not a VRM or a player; orbs encode head/hand pose) and spatial audio (Resonance Audio is abandoned upstream; the engine is pinned to 4.7).\nDead supersede links: status frontmatter held a .md link the listing did not rewrite, so statuses now hold a plain filename with the link in the body.\nBreadcrumb and Related links: the filter ran with the document’s directory as its cwd, so it is now anchored to QUARTO_PROJECT_DIR.\nFormatted the legacy markdown so the whole-repo prettier gate passes."
+    "objectID": "decisions/20260609-commit-messages-sentence-case.html#decision-outcome",
+    "href": "decisions/20260609-commit-messages-sentence-case.html#decision-outcome",
+    "title": "Commit messages use sentence case without Conventional Commits prefixes",
+    "section": "Decision Outcome",
+    "text": "Decision Outcome\nChosen option: sentence-case prose with no prefix, because the subject stays a sentence a reader understands on sight, and the repos gain nothing from a commit type that no tool reads.\nA commit subject opens with a capital letter and reads as a plain sentence, such as Add the macOS and Windows release workflows. It carries no feat:, fix:, chore:, or type(scope): prefix, and no trailing period. The body, where present, states what the change makes true of the system and why.\n\nConsequences\n\nGood, because the subject reads as a summary on its own, with nothing to strip before the meaning.\nGood, because the rule holds for every commit, so no author weighs whether a change counts as a feat or a fix.\nBad, because a changelog tool that groups commits by type finds no signal here, so adopting one later needs a different marker or a history rewrite.\n\n\n\nConfirmation\nReview reads each subject as a capitalised sentence with no type prefix and no trailing period. The history after this decision shows subjects in that form."
   },
   {
-    "objectID": "changelog/2026/20260606-deck-log.html#removed",
-    "href": "changelog/2026/20260606-deck-log.html#removed",
-    "title": "V-Sekai Multiplayer Fabric Deck Log — 2026-06-06 (Saturday)",
+    "objectID": "decisions/20260609-commit-messages-sentence-case.html#more-information",
+    "href": "decisions/20260609-commit-messages-sentence-case.html#more-information",
+    "title": "Commit messages use sentence case without Conventional Commits prefixes",
+    "section": "More Information",
+    "text": "More Information\nThis pairs with the tenseless continuous-present voice (20260607-tenseless-continuous-present-voice.md): a commit body states what the change makes true of the system, the same way comments and docs do."
+  },
+  {
+    "objectID": "decisions/20260609-commit-messages-sentence-case.html#related",
+    "href": "decisions/20260609-commit-messages-sentence-case.html#related",
+    "title": "Commit messages use sentence case without Conventional Commits prefixes",
+    "section": "Related",
+    "text": "Related\n\nComments and docs use a tenseless continuous-present voice"
+  },
+  {
+    "objectID": "decisions/20260606-archival-file-naming-convention.html",
+    "href": "decisions/20260606-archival-file-naming-convention.html",
+    "title": "Archival file naming convention for committed assets",
     "section": "",
-    "text": "Closed the stale maglev-cycle proposals (cycles 2–12 and the intercept) as rejected, leaving the live direction as the only open proposals.\nDropped Fly.io as the deployment target, superseded by self-hosting on Harvester."
+    "text": "Manuals › Decisions › Archival file naming convention for committed assets\nTier: baseline · Status: accepted"
+  },
+  {
+    "objectID": "decisions/20260606-archival-file-naming-convention.html#context-and-problem-statement",
+    "href": "decisions/20260606-archival-file-naming-convention.html#context-and-problem-statement",
+    "title": "Archival file naming convention for committed assets",
+    "section": "Context and Problem Statement",
+    "text": "Context and Problem Statement\nThe manuals repo now commits binary assets alongside prose, starting with screenshots under decisions/attachments/. Ad-hoc names like image.png collide, sort poorly, and lose their provenance once they leave the page that referenced them. What naming convention should committed assets follow so they stay unique, sortable, and self-describing?"
+  },
+  {
+    "objectID": "decisions/20260606-archival-file-naming-convention.html#decision-drivers",
+    "href": "decisions/20260606-archival-file-naming-convention.html#decision-drivers",
+    "title": "Archival file naming convention for committed assets",
+    "section": "Decision Drivers",
+    "text": "Decision Drivers\n\nNames should be unique and not collide across decisions.\nNames should sort chronologically and read as self-describing.\nNames should survive being copied out of the repo (provenance in the name).\nThe convention should match established digital-preservation guidance."
+  },
+  {
+    "objectID": "decisions/20260606-archival-file-naming-convention.html#considered-options",
+    "href": "decisions/20260606-archival-file-naming-convention.html#considered-options",
+    "title": "Archival file naming convention for committed assets",
+    "section": "Considered Options",
+    "text": "Considered Options\n\nKeep source names (image.png, screenshot (1).png).\nContent hash names (a1b2c3.png).\nA Library of Congress style descriptive convention."
+  },
+  {
+    "objectID": "decisions/20260606-archival-file-naming-convention.html#decision-outcome",
+    "href": "decisions/20260606-archival-file-naming-convention.html#decision-outcome",
+    "title": "Archival file naming convention for committed assets",
+    "section": "Decision Outcome",
+    "text": "Decision Outcome\nChosen option: “A Library of Congress style descriptive convention”, because it follows recognized preservation guidance and yields names that sort and explain themselves.\nThe pattern:\nYYYYMMDD_project_description_NNNN.ext\nFollowing the Library of Congress file-naming guidance:\n\nLowercase ASCII only; no spaces or special characters.\nISO 8601 date first (YYYYMMDD) so names sort chronologically.\nFacets separated by underscores (_); words within a facet by hyphens (-).\nA zero-padded sequence (NNNN) to keep same-day captures unique and ordered.\nDescriptive but reasonably short.\n\nExample, used for the first committed screenshot:\n20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png\nEach committed asset also gets a BibTeX entry in references.bib recording its capture date and archived path, so the References page lists it.\n\nConsequences\n\nGood: assets are unique, sort by date, and carry their provenance in the name.\nGood: the convention matches preservation practice and is mechanical to apply.\nBad: names are longer than source names, and renaming on import is a manual step.\n\n\n\nConfirmation\nAssets under decisions/attachments/ match YYYYMMDD_project_description_NNNN.ext and have a matching references.bib entry. The first example is 20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png, cited from the presence-demo decision."
+  },
+  {
+    "objectID": "decisions/20260606-archival-file-naming-convention.html#more-information",
+    "href": "decisions/20260606-archival-file-naming-convention.html#more-information",
+    "title": "Archival file naming convention for committed assets",
+    "section": "More Information",
+    "text": "More Information\nBased on the Library of Congress guidance on file naming for digital preservation (descriptive, no spaces, lowercase, ISO dates, zero-padded sequences)."
+  },
+  {
+    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html",
+    "href": "decisions/20260607-tenseless-continuous-present-voice.html",
+    "title": "Comments and docs use a tenseless continuous-present voice",
+    "section": "",
+    "text": "Manuals › Decisions › Comments and docs use a tenseless continuous-present voice\nStatus: accepted"
+  },
+  {
+    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#context-and-problem-statement",
+    "href": "decisions/20260607-tenseless-continuous-present-voice.html#context-and-problem-statement",
+    "title": "Comments and docs use a tenseless continuous-present voice",
+    "section": "Context and Problem Statement",
+    "text": "Context and Problem Statement\nComments and documentation drift out of sync with code as the system changes. A comment written as history (“added a cache”, “we removed the old path”) or as a plan (“will solve this”, “TODO: wire X”) describes a moment that has passed or has not yet arrived, so a reader cannot check it against the code in front of them. How should prose in this repo phrase what it says about the system?"
+  },
+  {
+    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#decision-drivers",
+    "href": "decisions/20260607-tenseless-continuous-present-voice.html#decision-drivers",
+    "title": "Comments and docs use a tenseless continuous-present voice",
+    "section": "Decision Drivers",
+    "text": "Decision Drivers\n\nA reader trusts a comment when it matches the code as it stands.\nHistory lives in git; plans live in issues and decision records.\nThe rule stays mechanical enough to apply in review without debate."
+  },
+  {
+    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#considered-options",
+    "href": "decisions/20260607-tenseless-continuous-present-voice.html#considered-options",
+    "title": "Comments and docs use a tenseless continuous-present voice",
+    "section": "Considered Options",
+    "text": "Considered Options\n\nFree choice of tense per author.\nPast-tense changelog voice inside code comments.\nA tenseless continuous-present voice where every sentence states what is currently true of the system."
+  },
+  {
+    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#decision-outcome",
+    "href": "decisions/20260607-tenseless-continuous-present-voice.html#decision-outcome",
+    "title": "Comments and docs use a tenseless continuous-present voice",
+    "section": "Decision Outcome",
+    "text": "Decision Outcome\nChosen option: “a tenseless continuous-present voice”, because a sentence that states a present truth stays correct as long as the code it describes stays the same, and goes stale visibly the moment the code changes.\nEvery comment and documentation sentence states what is currently true of the system. Prose describes behaviour (“the parser streams tokens”), and an unfinished area reads as a present gap (“the parser handles no Unicode escapes yet”) rather than as a task or a past edit. The voice covers code comments, doc pages, and decision records alike.\nThe voice rules out three habits:\n\nPast-tense narration of edits, such as “removed the legacy path” or “we switched to a queue”.\nFuture or imperative planning, such as “will add validation” or “TODO: handle retries”.\nTemporal qualifiers that age, such as “now”, “currently changed”, or “previously”.\n\nA TODO document states each open item as a present gap, so the file reads as a description of where the system stands rather than a logbook of intentions.\n\nConsequences\n\nGood, because a stale sentence signals a real divergence from the code, which makes review catch it.\nGood, because one voice covers code comments, doc pages, and decision records.\nBad, because a present-gap phrasing reads less naturally than an imperative TODO, and authors need practice to phrase work that way.\n\n\n\nConfirmation\nReview checks that new comments and prose state present truths, with no past-tense edit narration, no future or imperative planning, and no aging temporal qualifiers. The existing decision records in this repo already read this way."
+  },
+  {
+    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#more-information",
+    "href": "decisions/20260607-tenseless-continuous-present-voice.html#more-information",
+    "title": "Comments and docs use a tenseless continuous-present voice",
+    "section": "More Information",
+    "text": "More Information\nThis generalizes the house rule applied across the sinew Lean spec and its native viewer prose, where comments describe current behaviour and todo.md lists each open item as a present gap."
+  },
+  {
+    "objectID": "decisions/20260607-tenseless-continuous-present-voice.html#related",
+    "href": "decisions/20260607-tenseless-continuous-present-voice.html#related",
+    "title": "Comments and docs use a tenseless continuous-present voice",
+    "section": "Related",
+    "text": "Related\n\nCommit messages use sentence case without Conventional Commits prefixes"
   },
   {
     "objectID": "decisions.html",
