@@ -22,10 +22,18 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Set up Python
-        run: pip install jupyter pandas itables plotly scipy panflute
+      # Only what the render uses: the jupyter engine for the build-info page,
+      # pandas for its table, and panflute for the decision-meta filter.
+      - name: Set up Python packages
+        run: pip install jupyter pandas panflute
 
       - run: quarto render
 
