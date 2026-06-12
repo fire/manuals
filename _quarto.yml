@@ -6,8 +6,8 @@ resources:
   - decisions/attachments
 
 website:
-  site-url: https://v-sekai-multiplayer-fabric.github.io/manuals
-  repo-url: https://github.com/v-sekai-multiplayer-fabric/manuals
+  site-url: https://fire.github.io/manuals
+  repo-url: https://github.com/fire/manuals
   repo-branch: main
   repo-actions: edit
   title: V-Sekai Fire — Manuals
@@ -25,7 +25,7 @@ website:
   page-footer:
     right:
       - icon: github
-        href: https://github.com/v-sekai-multiplayer-fabric
+        href: https://github.com/fire
 
 bibliography: references.bib
 

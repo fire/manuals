@@ -3,29 +3,42 @@ name: Publish
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
+# Allow the GITHUB_TOKEN to deploy to GitHub Pages via the Actions artifact flow.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One Pages deployment at a time; let an in-progress deploy finish.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
       - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Set up Python
         run: pip install jupyter pandas itables plotly scipy panflute
 
-      - uses: quarto-dev/quarto-actions/setup@v2
-
       - run: quarto render
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _site
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
