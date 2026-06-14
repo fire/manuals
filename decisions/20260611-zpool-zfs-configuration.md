@@ -14,7 +14,7 @@ change. A wrong choice here costs a full recreate-and-copy, so the layout needs 
 before the first write lands. What `zpool create` and `zfs create` settings should the
 baseline pool use? The pool name follows the naming convention
 ([20260611-zpool-naming-convention.md](20260611-zpool-naming-convention.md)), which
-gives this drive the name `chibifire-assets-2026w24`.
+gives this drive the name `chibifire-vault-2026w24`.
 
 ## Decision Drivers
 
@@ -93,7 +93,7 @@ its own `recordsize` at creation.
 A creation command carrying these settings reads:
 
 ```sh
-zpool create -o ashift=12 chibifire-assets-2026w24 /dev/disk/by-id/<single-disk>
+zpool create -o ashift=12 chibifire-vault-2026w24 /dev/disk/by-id/<single-disk>
 
 zfs create \
   -o casesensitivity=insensitive \
@@ -103,7 +103,7 @@ zfs create \
   -o atime=off \
   -o xattr=sa \
   -o acltype=posix \
-  chibifire-assets-2026w24/files
+  chibifire-vault-2026w24/files
 ```
 
 ### Consequences
@@ -125,15 +125,15 @@ zfs create \
   space each file occupies.
 - Good, because the case-insensitive, normalized layout reads consistently across the
   hosts a portable drive visits, so the same asset resolves the same way on each.
-- Bad, because a portable drive needs `zpool export chibifire-assets-2026w24` before it
+- Bad, because a portable drive needs `zpool export chibifire-vault-2026w24` before it
   unplugs, since pulling a live pool risks an unclean export and an import that needs
   `-f` on the next host.
 
 ### Confirmation
 
-`zpool get ashift chibifire-assets-2026w24` reports `12`, and `zfs get
+`zpool get ashift chibifire-vault-2026w24` reports `12`, and `zfs get
 casesensitivity,normalization,utf8only,compression,copies,atime,xattr,acltype
-chibifire-assets-2026w24/files` reports `insensitive`, `formD`, `on`, `zstd`, `1`,
+chibifire-vault-2026w24/files` reports `insensitive`, `formD`, `on`, `zstd`, `1`,
 `off`, `sa`, and `posix`. A lookup of a file under two different cases resolves to the
 same inode, which `ls -i` confirms.
 
