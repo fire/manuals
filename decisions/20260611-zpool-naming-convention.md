@@ -51,7 +51,7 @@ The pattern:
 
 - `<owner>` is a trademark or handle slug that owns the data: `chibifire` for the
   business (github.com/chibifire) or `fire` for personal use (github.com/fire).
-- `<role>` is the drive's purpose: `assets`, `backup`, `scratch`, or similar.
+- `<role>` is the drive's purpose: `vault`, `assets`, `backup`, `scratch`, or similar.
 - `<isoyearweek>` is the ISO 8601 week of commissioning, lowercase `w`, such as
   `2026w24`. The year is the ISO week-year, so a date near the January boundary carries a
   consistent year and week together.
@@ -64,11 +64,11 @@ the archival file-naming convention
 It satisfies the ZFS rules: each name begins with a letter, uses only allowed characters,
 and avoids the reserved tokens.
 
-The first drive under this convention, a portable single disk holding project assets
-commissioned in ISO week 2026-W24, takes the name:
+The first drive under this convention, a portable single disk that holds project assets
+in a `vault` role, commissioned in ISO week 2026-W24, takes the name:
 
 ```
-chibifire-assets-2026w24
+chibifire-vault-2026w24
 ```
 
 A pool name is a label rather than an immutable creation property: `zpool export
