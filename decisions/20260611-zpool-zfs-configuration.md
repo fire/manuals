@@ -71,10 +71,12 @@ mismatched `ashift=9` pool carries for its whole life. `ashift` fixes per vdev a
 Redundancy topology is a single disk, because the pool runs on one drive. A single-disk
 vdev carries no redundancy, so a drive failure loses the pool, and a backup or
 replication target holds the recovery copy rather than the pool itself. The dataset sets
-`copies=2` so ZFS keeps two copies of each block on the one disk, which recovers a block
-that fails a checksum from bad sectors while a whole-drive failure still loses
-everything. `copies=2` roughly doubles the space each file occupies, so a dataset where
-the footprint matters more than block-level self-healing leaves `copies` at `1`.
+`copies=1`, ZFS's default of one copy of each block, because the off-pool backup rather
+than an on-disk second copy carries the recovery, and a single-disk vdev loses
+everything on a whole-drive failure regardless of the copy count. A dataset that values
+block-level self-healing from bad sectors over footprint raises `copies` to `2`, which
+keeps two copies of each block on the one disk and roughly doubles the space each file
+occupies.
 
 Access-time updates use `atime=off`, because the workload reads assets without needing a
 per-read metadata write, and turning `atime` off removes that write amplification. The
@@ -97,7 +99,7 @@ zfs create \
   -o casesensitivity=insensitive \
   -o normalization=formD \
   -o compression=zstd \
-  -o copies=2 \
+  -o copies=1 \
   -o atime=off \
   -o xattr=sa \
   -o acltype=posix \
@@ -118,8 +120,9 @@ zfs create \
   emitting non-UTF-8 names fails on this dataset.
 - Bad, because zstd spends more CPU per write than lz4, which shows on a CPU-bound host.
 - Bad, because a single-disk vdev holds no redundancy, so a drive failure loses the pool
-  and recovery depends on an off-pool backup; `copies=2` heals bad blocks but not a dead
-  drive, and it doubles the space each file occupies.
+  and recovery depends on an off-pool backup; `copies=1` keeps one copy per block, so
+  raising it to `copies=2` would heal bad blocks but not a dead drive while doubling the
+  space each file occupies.
 - Good, because the case-insensitive, normalized layout reads consistently across the
   hosts a portable drive visits, so the same asset resolves the same way on each.
 - Bad, because a portable drive needs `zpool export chibifire-assets-2026w24` before it
@@ -130,7 +133,7 @@ zfs create \
 
 `zpool get ashift chibifire-assets-2026w24` reports `12`, and `zfs get
 casesensitivity,normalization,utf8only,compression,copies,atime,xattr,acltype
-chibifire-assets-2026w24/files` reports `insensitive`, `formD`, `on`, `zstd`, `2`,
+chibifire-assets-2026w24/files` reports `insensitive`, `formD`, `on`, `zstd`, `1`,
 `off`, `sa`, and `posix`. A lookup of a file under two different cases resolves to the
 same inode, which `ls -i` confirms.
 
