@@ -29,8 +29,6 @@ website:
       - icon: github
         href: https://github.com/fire
 
-bibliography: references.bib
-
 format:
   html:
     toc: true

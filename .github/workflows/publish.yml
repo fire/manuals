@@ -30,10 +30,11 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      # The render runs no code cells, so it needs only panflute for the
+      # The render runs a Python cell (references.qmd reads CITATION.cff via
+      # cffconvert), so it needs jupyter + cffconvert alongside panflute for the
       # decision-meta pandoc filter.
       - name: Set up Python packages
-        run: pip install panflute
+        run: pip install jupyter panflute cffconvert
 
       # Compute the build-info table at build time without a code engine: a
       # shell step writes the partial that build-info.qmd includes.
