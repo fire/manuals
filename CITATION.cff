@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "fire-manuals: Architecture Decision Records and reference documentation for Chibifire"
+abstract: >
+  Architecture Decision Records (MADRs), changelogs, and reference bibliography for the
+  Chibifire manuals, published as a Quarto website. Records product and process decisions
+  and the provenance of committed assets.
+authors:
+  - family-names: Lee
+    given-names: "K. S. Ernest (iFire)"
+    email: ernest.lee@chibifire.com
+    orcid: "https://orcid.org/0000-0003-4570-1436"
+version: 0.1.0-dev.1
+date-released: "2026-06-24"
+license: MIT
+repository-code: "https://github.com/fire/manuals"
+url: "https://fire.github.io/manuals/"
+keywords:
+  - architecture-decision-records
+  - manuals
+  - documentation
+  - quarto
+  - madr
+
+references:
+
+  - type: website
+    title: "Chibifire"
+    authors:
+      - name: "Chibifire"
+    year: 2026
+    url: "https://chibifire.com/"
+
+  - type: generic
+    title: "xr-grid Debug Scene: Hero-Asset Landmark with Head and Hand Orientation-and-Translation Orbs"
+    authors:
+      - name: "V-Sekai Multiplayer Fabric"
+    year: 2026
+    notes: "Screenshot captured 2026-06-06; archived at decisions/attachments/20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png"

@@ -49,12 +49,13 @@ Status: Draft <!-- Draft | Proposed | Rejected | Accepted | Deprecated | Superse
 
 ## Further Reading
 
-<!-- Written in Bibtex format -->
+<!-- Written as a CFF reference entry; add it to the `references:` block of CITATION.cff -->
 
-```
-@misc{v_sekai_2026,
-  title = {V-Sekai},
-  year  = {2026},
-  url   = {https://v-sekai.org/}
-}
+```yaml
+- type: website
+  title: "V-Sekai"
+  authors:
+    - name: "V-Sekai"
+  year: 2026
+  url: "https://v-sekai.org/"
 ```

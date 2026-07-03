@@ -69,7 +69,7 @@ parallelism (`not X, but/it's Y`) and no bold lead-in list items (`- **Term:** .
 
 Commit images under `decisions/attachments/` using the archival naming convention
 `YYYYMMDD_project_description_NNNN.ext` (lowercase, no spaces, ISO date, zero-padded
-sequence), and add a matching `references.bib` entry. See the naming-convention decision.
+sequence), and add a matching entry in the `references:` block of `CITATION.cff`. See the naming-convention decision.
 
 ## Key files
 
@@ -88,7 +88,7 @@ sequence), and add a matching `references.bib` entry. See the naming-convention 
 - Decision filenames: `YYYYMMDD-kebab-title.md`
 - Feature decisions carry a `tier:` (`proof of concept` / `baseline` / `stretch`)
 - Changelog filenames: `YYYYMMDD-deck-log.md` inside `changelog/YYYY/`
-- Asset filenames: `YYYYMMDD_project_description_NNNN.ext` in `decisions/attachments/`, with a `references.bib` entry
+- Asset filenames: `YYYYMMDD_project_description_NNNN.ext` in `decisions/attachments/`, with a matching entry in `CITATION.cff`
 - Prose follows tropes.fyi style; `prek run --all-files` must pass before pushing
 - No hardcoded absolute filesystem paths; use env vars or placeholders (e.g. `$GODOT_SRC`)
 - Do not commit `_site/` — it is build output

@@ -52,8 +52,8 @@ Example, used for the first committed screenshot:
 20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png
 ```
 
-Each committed asset also gets a BibTeX entry in `references.bib` recording its
-capture date and archived path, so the References page lists it.
+Each committed asset also gets an entry in the `references:` block of `CITATION.cff`
+recording its capture date and archived path, so the References page lists it.
 
 ### Consequences
 
@@ -64,7 +64,7 @@ capture date and archived path, so the References page lists it.
 ### Confirmation
 
 Assets under `decisions/attachments/` match `YYYYMMDD_project_description_NNNN.ext`
-and have a matching `references.bib` entry. The first example is
+and have a matching entry in `CITATION.cff`. The first example is
 `20260606_vsekai-mpf_xr-grid-debug-orbs_0001.png`, cited from the
 [presence-demo decision](20260606-multiplayer-presence-demo-orbs.md).
 
