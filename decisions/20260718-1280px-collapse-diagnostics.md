@@ -9,8 +9,8 @@ tier: baseline
 Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, originally `docs/decisions/0007-1280px-collapse-diagnostics.md`. The repository is archived and read-only; this copy is the one that stays maintained. Content is verbatim apart from the front matter, which replaces the original heading and status line.
 :::
 
-* Status: accepted
-* Date: 2026-07-18
+- Status: accepted
+- Date: 2026-07-18
 
 ## Context and Problem Statement
 
@@ -24,7 +24,7 @@ remains open (MADR 0008).
 - [x] Diagnosed the 1280px layer collapse: bisected by resolution across
       every valid multiple of 64 (512 through 1216 all clean; only 1280
       collapses) — pins it to something specific about exactly the UNet's
-      160x160 latent level with *real* trained weights (the Lean witness
+      160x160 latent level with _real_ trained weights (the Lean witness
       gate only validated that shape with synthetic random weights). Ruled
       out gallocr input-recycling (all inputs already re-set every
       compute) and scheduler numerics (per-step lat mean/std decay
@@ -36,7 +36,7 @@ remains open (MADR 0008).
       row-chunk code hardcoded batch=1). New Lean witness cases
       (`unet-rowchunk-*-b13`) confirm the generalization is itself exact
       at the real batch=13 shape — but a full 1280px run with the fix in
-      place shows the *same* collapse. Kept the code (independently
+      place shows the _same_ collapse. Kept the code (independently
       correct, removes a latent-shape blind spot) but it isn't the fix.
 - [x] Found and fixed a related bug while bisecting: the CLI crashed
       (unhandled `abort()`, hanging MSVC dialog) on any `--res`/
@@ -44,7 +44,7 @@ remains open (MADR 0008).
       (64 for trans-vae's 6 stages, 8 for marigold-vae's 3) instead of
       validating input. Now rounds up with a printed note, matching the
       pattern of upstream's own (otherwise unused) `validate_resolution()`.
-- [x] Ruled out `flash_attn` as a *seed-dependent* divergence: multi-seed
+- [x] Ruled out `flash_attn` as a _seed-dependent_ divergence: multi-seed
       probing (`tests/probe_flash_bigT.cpp`, 8 seeds x every gated
       shape/batch, Vulkan) found no divergence beyond the existing
       single-seed gate — all comfortably contained (worst violation 0.30
@@ -53,7 +53,7 @@ remains open (MADR 0008).
       hypothesis untested.
 - [x] Identified that the blank-face/missing-ears symptom seen in
       `assets/final_svg_composite.png` and `final30_composite.png` is the
-      *same* 1280px collapse, not a separate "content-quality" bug: both
+      _same_ 1280px collapse, not a separate "content-quality" bug: both
       composites were generated at the CLI's default `--res` (1280), and
       re-running at `--res 512` produces correct face and ears layers. The
       face/ears layers come from the same head-crop second pass

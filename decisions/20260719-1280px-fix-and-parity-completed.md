@@ -9,8 +9,8 @@ tier: baseline
 Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, originally `docs/decisions/0009-1280px-fix-and-parity-completed.md`. The repository is archived and read-only; this copy is the one that stays maintained. Content is verbatim apart from the front matter, which replaces the original heading and status line.
 :::
 
-* Status: accepted
-* Date: 2026-07-19
+- Status: accepted
+- Date: 2026-07-19
 
 ## Context and Problem Statement
 
@@ -39,7 +39,7 @@ in full, per the split convention established by MADR 0004.
       showed `vae_decode`/`unet1024`'s output is flat/featureless at
       res=1280 even with the attn_block fix active, and — critically —
       dumping the raw **latent itself** (before decode runs at all) shows
-      it is *already* completely flat at res=1280, while the identical
+      it is _already_ completely flat at res=1280, while the identical
       frame's latent at res=512 clearly shows the real shape. **The
       collapse is confirmed to originate in the main diffusion UNet's
       forward pass** (`unet_frame_forward`, `unet_frame.cpp`), not
@@ -72,7 +72,7 @@ in full, per the split convention established by MADR 0004.
       through the down/mid blocks show growing absolute error (up to 0.55
       at mid_block, driven by ordinary F16 `direct_conv` im2col rounding
       compounding over more/larger layers than the 64x64 gate exercises),
-      but it *shrinks back down* 20x through the up-path — skip
+      but it _shrinks back down_ 20x through the up-path — skip
       connections and GroupNorm diluting uncorrelated per-layer float
       noise, not a real bug un-fixing itself — and the final output
       matches upstream's own healthy stats (mean 0.00108, std 1.004)
@@ -143,7 +143,7 @@ in full, per the split convention established by MADR 0004.
       **Actual root cause and fix, found by questioning the premise**
       (prompted by "check upstream see-through, I'd expect tiling"): this
       VAE's own trained config is `sample_size=512`/`tile_sample_min_size=
-      512`. Every comparison in this whole investigation — ours and every
+    512`. Every comparison in this whole investigation — ours and every
       upstream reference generated for it — ran the encoder and decoder at
       res=1280, **2.5x beyond that trained scale, fully untiled**. That is
       what pushes `mid_block.resnets.1` into the extreme, near-cancelling
@@ -195,7 +195,7 @@ in full, per the split convention established by MADR 0004.
       Its down_blocks 0-2 each halve spatial resolution once (8x total)
       before fusing with the raw latent at `i==3`, exactly matching the
       pixel-to-latent 8x scale — so a pixel tile and its co-located latent
-      tile from the *same* 512px/64-latent grid already used for VAE
+      tile from the _same_ 512px/64-latent grid already used for VAE
       tiling align perfectly at that fusion point, making it tileable with
       identical grid/parameters. Implemented `unet1024_tiled` in
       `vae.cpp` (mirrors `vae_decode_tiled`'s tile/blend/crop/concat
@@ -210,7 +210,7 @@ in full, per the split convention established by MADR 0004.
       output by tag name and compare alpha masks + depth ordering.
       Reversed the earlier ThorVG-vs-PSD-reader decision: our own SVG
       needs no parser dependency to read back (it's our own flat,
-      documented format); the actual blocker was reading *upstream's* PSD
+      documented format); the actual blocker was reading _upstream's_ PSD
       output. Vendored `psd_sdk` (MolecularMatters) as a git subtree and
       added `tests/psd_layers.cpp`, which reads a PSD and writes one PNG
       per layer (RGBA, expanded to full canvas).
@@ -218,7 +218,7 @@ in full, per the split convention established by MADR 0004.
       called the hosted `24yearsold/see-through-demo` Gradio Space's
       `/inference` API directly (`gradio_client`, `HF_TOKEN` from the
       Windows user environment) on upstream's own `common/assets/
-      test_image.png`, `resolution=1280, seed=42, tblr_split=True` —
+    test_image.png`, `resolution=1280, seed=42, tblr_split=True` —
       matching our CLI's own defaults exactly. This sidestepped the
       originally-planned local Python-environment-setup activity
       entirely (no torch/cu128 install, no `-e ./common`/`-e ./annotators`

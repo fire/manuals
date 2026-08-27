@@ -9,8 +9,8 @@ tier: baseline
 Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, originally `docs/decisions/0010-speedup-candidates.md`. The repository is archived and read-only; this copy is the one that stays maintained. Content is verbatim apart from the front matter, which replaces the original heading and status line.
 :::
 
-* Status: superseded by [0011](0011-unet-loop-speedups.md)
-* Date: 2026-07-20
+- Status: superseded by [0011](0011-unet-loop-speedups.md)
+- Date: 2026-07-20
 
 > **Superseded.** Every actionable candidate below has since been resolved,
 > and the measurements are stale — the `layerdiff.body` numbers here peak at
@@ -20,7 +20,7 @@ Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, 
 > - Candidate 1 (scope the precision fix down) — done in `4e4156e`, which
 >   reverted the `out_prod`/residual `quantize_y` fix.
 > - Candidate 3 (wire Winograd into the chunked conv paths) — rejected. MADR
->   0011 measured the Winograd composition as *slower* than what it replaced
+>   0011 measured the Winograd composition as _slower_ than what it replaced
 >   and made it opt-in; `21843c2` then removed the path entirely, so
 >   `conv2d_winograd_3x3s1` no longer exists in `src/ops.cpp`.
 > - Candidate 5 (re-enable flash attn per-model) — done in MADR 0011 finding
@@ -49,23 +49,23 @@ shows what these fixes actually cost end to end, tracked by
 `layerdiff.body`'s span duration (the main UNet's 30-step diffusion loop,
 one trace per full pipeline run, chronological):
 
-| trace (first 8 chars) | layerdiff.body duration |
-|---|---|
-| `5be534f2` (pre-`out_prod`, original baseline) | **108.2s** |
-| `3e4f0541` (`out_prod` conversion landed)     | 484.3s |
-| `8b345f32`                                     | 364.3s |
-| `3e4342ab`                                     | 428.9s |
-| `9cc3e20e`                                     | 374.1s |
-| `bb372701`                                     | 360.7s |
-| `6068acbe`                                     | 349.8s |
-| `a1b35f57`                                     | 343.8s |
-| `1ee0cbb8` (+ residual-correction pass)        | **749.2s** |
+| trace (first 8 chars)                          | layerdiff.body duration |
+| ---------------------------------------------- | ----------------------- |
+| `5be534f2` (pre-`out_prod`, original baseline) | **108.2s**              |
+| `3e4f0541` (`out_prod` conversion landed)      | 484.3s                  |
+| `8b345f32`                                     | 364.3s                  |
+| `3e4342ab`                                     | 428.9s                  |
+| `9cc3e20e`                                     | 374.1s                  |
+| `bb372701`                                     | 360.7s                  |
+| `6068acbe`                                     | 349.8s                  |
+| `a1b35f57`                                     | 343.8s                  |
+| `1ee0cbb8` (+ residual-correction pass)        | **749.2s**              |
 
 The `out_prod` conversion alone cost **~3.2-4.5x**. Adding the residual pass
 on top of that cost roughly another **~2x** (749s vs the ~350-480s band).
 Combined, this session's precision fixes made the single most expensive
 stage in the whole pipeline **~7x slower** than the pre-fix baseline — moving
-*away* from the original 1m12s target, not toward it.
+_away_ from the original 1m12s target, not toward it.
 
 Meanwhile, MADR 0009 already validated that the **pre-fix** behavior (plain
 `ggml_mul_mat`, `quantize_y`'s int8 activation quantization active,

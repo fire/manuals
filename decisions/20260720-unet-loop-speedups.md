@@ -9,23 +9,23 @@ tier: baseline
 Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, originally `docs/decisions/0011-unet-loop-speedups.md`. The repository is archived and read-only; this copy is the one that stays maintained. Content is verbatim apart from the front matter, which replaces the original heading and status line.
 :::
 
-* Status: accepted
-* Date: 2026-07-20
+- Status: accepted
+- Date: 2026-07-20
 
 ## Context and Problem Statement
 
 MADR 0010 set the goal: close the gap to the upstream HuggingFace Space's
 end-to-end image→PSD time. Two calibration facts changed this session:
 
-1. **The live upstream benchmark is 183.2s, not 72s.** Measured directly:
+1. The live upstream benchmark is 183.2s, not 72s. Measured directly:
    `24yearsold/see-through-demo`'s `/inference` (gradio_client, HF_TOKEN,
    `test_image3.png`, resolution=1280/seed=42/tblr_split=True) took 183.2s
    wall. The historical ~1m12s figure does not reflect the Space's current
    behavior; 183s is the honest scoreboard.
-2. **The measured pre-session baseline was far above MADR 0010's 108s
-   band**: main@4e4156e ran the body UNet loop at **347.6s** (11.4s/step,
+2. The measured pre-session baseline was far above MADR 0010's 108s
+   band — main@4e4156e ran the body UNet loop at **347.6s** (11.4s/step,
    Q4 models, 1280/30, RTX 4090) — the MADR-0009-era revert had not
-   recovered the old 108s trace, because a *separate* regression was live
+   recovered the old 108s trace, because a _separate_ regression was live
    (see finding 1 below).
 
 All changes below were verified two ways: wall-time A/B at identical
@@ -118,13 +118,13 @@ total on NVMe and were never the bottleneck.
 
 ## Results (test_image3.png, 1280/30/seed 42, Q4, RTX 4090)
 
-| configuration | end-to-end |
-|---|---|
-| main@4e4156e (extrapolated from body loop 347.6s) | ~12+ min |
-| + flash attn scoping, backend/graph reuse (opt1-era) | 9m39s |
-| + linear flatten, Winograd opt-in (opt2-era) | 6m03s* |
-| + adaptive row-chunking | see spans |
-| upstream Space, live | 3m03s |
+| configuration                                        | end-to-end |
+| ---------------------------------------------------- | ---------- |
+| main@4e4156e (extrapolated from body loop 347.6s)    | ~12+ min   |
+| + flash attn scoping, backend/graph reuse (opt1-era) | 9m39s      |
+| + linear flatten, Winograd opt-in (opt2-era)         | 6m03s*     |
+| + adaptive row-chunking                              | see spans  |
+| upstream Space, live                                 | 3m03s      |
 
 *opt2 measured on the original test_image.png; t3 flash run on
 test_image3.png was 6m10s at the same code.

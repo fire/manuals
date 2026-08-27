@@ -9,8 +9,8 @@ tier: baseline
 Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, originally `docs/decisions/0004-remaining-work.md`. The repository is archived and read-only; this copy is the one that stays maintained. Content is verbatim apart from the front matter, which replaces the original heading and status line.
 :::
 
-* Status: accepted
-* Date: 2026-07-18
+- Status: accepted
+- Date: 2026-07-18
 
 ## Context and Problem Statement
 
@@ -57,7 +57,7 @@ MADR 0008.
       combination) reports VERIFY PASS on Vulkan/RTX 4090 — no kernel-level
       defect at any 1280px production shape. Two apparent "defects" found
       along the way were bisected to Vulkan single-allocation buffer-size
-      limits in the *naive reference* path (never used in production), not
+      limits in the _naive reference_ path (never used in production), not
       real flash-attention divergence; a `knownDefects` regression-guard
       case was tried and dropped after the historical zero-output symptom
       didn't reproduce deterministically from a fresh random witness.
@@ -65,7 +65,7 @@ MADR 0008.
       the SVG/chunk-removal refactor) — per-layer z-ordered PNG export now
       writes alongside the SVG.
 - [x] Q4_0 quantization landed end-to-end: `convert_diffusers_to_gguf.py
-      --ftype 2` quantizes nn.Linear weights only (self/cross-attn, GEGLU
+    --ftype 2` quantizes nn.Linear weights only (self/cross-attn, GEGLU
       FF — matching upstream's own bitsandbytes NF4 scope, which also
       skips conv layers), verified bit-exact against ggml's own
       `quantize_row_q4_0_ref`. No C++ changes needed — the native gguf.h
@@ -82,7 +82,7 @@ MADR 0008.
       failure fallback.
 - [x] SVG `<image>` elements carry a semantic `id` (sanitized tag name,
       e.g. `id="topwear"`; depth-group counterparts use `id="depth-
-      <tag>"`) alongside the existing `data-tag` attribute, so SVG
+    <tag>"`) alongside the existing `data-tag` attribute, so SVG
       consumers (e.g. a future ThorVG-based collation tool) can look
       layers up by id.
 
