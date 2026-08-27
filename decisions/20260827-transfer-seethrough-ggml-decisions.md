@@ -36,8 +36,10 @@ no reason to search an archived repository they may not know exists.
 
 Option 3. Twelve records move to `decisions/`, renamed to this repository's
 `YYYYMMDD-short-title` convention, each carrying a note naming the file it came from.
-Content is verbatim apart from front matter replacing the original heading and status
-line.
+Content follows the original apart from two mechanical changes: front matter replaces
+the original heading and status line, and six bold-label list openers were rewritten
+because `check_tropes.sh` rejects them as an AI-writing tell. Neither changes meaning,
+and neither is invisible -- the callout on each file says so.
 
 Option 1 loses them by attrition rather than by deletion. Option 2 claims a maintenance
 commitment nobody has made — the port itself is not being continued, and pretending

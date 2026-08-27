@@ -6,7 +6,7 @@ tier: baseline
 ---
 
 ::: {.callout-note appearance="simple"}
-Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, originally `docs/decisions/0003-reference-activation-validation.md`. The repository is archived and read-only; this copy is the one that stays maintained. Content is verbatim apart from the front matter, which replaces the original heading and status line.
+Transferred from the archived `weftspun/interactor-seethrough-ggml` repository, originally `docs/decisions/0003-reference-activation-validation.md`. The repository is archived and read-only; this copy is the one that stays maintained. Content follows the original apart from the front matter, which replaces the original heading and status line, and bold-label list openers, which this repository's prose check rejects as an AI-writing tell.
 :::
 
 ## Context and Problem Statement
@@ -30,10 +30,10 @@ see-through repo itself (not a reimplementation), loads the real
 checkpoint, and writes seeded inputs + outputs; the C++ test loads the
 GGUF, runs the graph, and reports max/mean abs diff.
 
-- **Tolerance**: max abs diff < 5e-2 gate; observed 6.5e-4 at 256px —
+- Tolerance — max abs diff < 5e-2 gate; observed 6.5e-4 at 256px —
   the f16-weight noise floor. A structural error shows up orders of
   magnitude above this, so the gate is not sensitive to threshold choice.
-- **Reference format**: raw binary `{i32 ndim, i64 dims[], f32 data}` per
+- Reference format — raw binary `{i32 ndim, i64 dims[], f32 data}` per
   array. A minimal npz/zip parser was tried first and abandoned — numpy's
   local-header quirks (data descriptors) segfaulted it, and debugging a
   zip parser is not this project's job. Dumbest format wins.
