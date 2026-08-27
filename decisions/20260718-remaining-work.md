@@ -65,7 +65,7 @@ MADR 0008.
       the SVG/chunk-removal refactor) — per-layer z-ordered PNG export now
       writes alongside the SVG.
 - [x] Q4_0 quantization landed end-to-end: `convert_diffusers_to_gguf.py
-    --ftype 2` quantizes nn.Linear weights only (self/cross-attn, GEGLU
+--ftype 2` quantizes nn.Linear weights only (self/cross-attn, GEGLU
       FF — matching upstream's own bitsandbytes NF4 scope, which also
       skips conv layers), verified bit-exact against ggml's own
       `quantize_row_q4_0_ref`. No C++ changes needed — the native gguf.h
@@ -82,7 +82,7 @@ MADR 0008.
       failure fallback.
 - [x] SVG `<image>` elements carry a semantic `id` (sanitized tag name,
       e.g. `id="topwear"`; depth-group counterparts use `id="depth-
-    <tag>"`) alongside the existing `data-tag` attribute, so SVG
+<tag>"`) alongside the existing `data-tag` attribute, so SVG
       consumers (e.g. a future ThorVG-based collation tool) can look
       layers up by id.
 

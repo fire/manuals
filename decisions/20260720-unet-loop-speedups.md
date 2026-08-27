@@ -122,11 +122,11 @@ total on NVMe and were never the bottleneck.
 | ---------------------------------------------------- | ---------- |
 | main@4e4156e (extrapolated from body loop 347.6s)    | ~12+ min   |
 | + flash attn scoping, backend/graph reuse (opt1-era) | 9m39s      |
-| + linear flatten, Winograd opt-in (opt2-era)         | 6m03s*     |
+| + linear flatten, Winograd opt-in (opt2-era)         | 6m03s\*    |
 | + adaptive row-chunking                              | see spans  |
 | upstream Space, live                                 | 3m03s      |
 
-*opt2 measured on the original test_image.png; t3 flash run on
+\*opt2 measured on the original test_image.png; t3 flash run on
 test_image3.png was 6m10s at the same code.
 
 ## Open items

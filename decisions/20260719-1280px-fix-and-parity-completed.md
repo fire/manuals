@@ -37,9 +37,9 @@ in full, per the split convention established by MADR 0004.
       **However**, this was chasing the wrong stage for the actual visual
       collapse: adding grayscale visualizations to the per-stage taps
       showed `vae_decode`/`unet1024`'s output is flat/featureless at
-      res=1280 even with the attn_block fix active, and — critically —
+      res=1280 even with the attn*block fix active, and — critically —
       dumping the raw **latent itself** (before decode runs at all) shows
-      it is _already_ completely flat at res=1280, while the identical
+      it is \_already* completely flat at res=1280, while the identical
       frame's latent at res=512 clearly shows the real shape. **The
       collapse is confirmed to originate in the main diffusion UNet's
       forward pass** (`unet_frame_forward`, `unet_frame.cpp`), not
@@ -70,9 +70,9 @@ in full, per the split convention established by MADR 0004.
       A single UNet forward pass (real trained weights, production knobs)
       against this reference is **numerically healthy end-to-end**: taps
       through the down/mid blocks show growing absolute error (up to 0.55
-      at mid_block, driven by ordinary F16 `direct_conv` im2col rounding
+      at mid*block, driven by ordinary F16 `direct_conv` im2col rounding
       compounding over more/larger layers than the 64x64 gate exercises),
-      but it _shrinks back down_ 20x through the up-path — skip
+      but it \_shrinks back down* 20x through the up-path — skip
       connections and GroupNorm diluting uncorrelated per-layer float
       noise, not a real bug un-fixing itself — and the final output
       matches upstream's own healthy stats (mean 0.00108, std 1.004)
@@ -109,7 +109,7 @@ in full, per the split convention established by MADR 0004.
       primary target, no CPU fallback; this one op alone cost 10-20 min/
       generation). Reverted.
       **GPU fix applied instead**: `ggml_mul_mat_set_prec(GGML_PREC_F32)`
-      on `conv2d`'s im2col mul_mat (forces f32 accumulation instead of
+      on `conv2d`'s im2col mul*mat (forces f32 accumulation instead of
       Vulkan coopmat2's reduced-precision default) plus the same on the
       main UNet's flash attention. Verified real improvement (the
       catastrophic sign-flip/magnitude-implosion at `mid.resnet1` is gone,
@@ -143,7 +143,7 @@ in full, per the split convention established by MADR 0004.
       **Actual root cause and fix, found by questioning the premise**
       (prompted by "check upstream see-through, I'd expect tiling"): this
       VAE's own trained config is `sample_size=512`/`tile_sample_min_size=
-    512`. Every comparison in this whole investigation — ours and every
+512`. Every comparison in this whole investigation — ours and every
       upstream reference generated for it — ran the encoder and decoder at
       res=1280, **2.5x beyond that trained scale, fully untiled**. That is
       what pushes `mid_block.resnets.1` into the extreme, near-cancelling
@@ -195,7 +195,7 @@ in full, per the split convention established by MADR 0004.
       Its down_blocks 0-2 each halve spatial resolution once (8x total)
       before fusing with the raw latent at `i==3`, exactly matching the
       pixel-to-latent 8x scale — so a pixel tile and its co-located latent
-      tile from the _same_ 512px/64-latent grid already used for VAE
+      tile from the \_same* 512px/64-latent grid already used for VAE
       tiling align perfectly at that fusion point, making it tileable with
       identical grid/parameters. Implemented `unet1024_tiled` in
       `vae.cpp` (mirrors `vae_decode_tiled`'s tile/blend/crop/concat
@@ -218,7 +218,7 @@ in full, per the split convention established by MADR 0004.
       called the hosted `24yearsold/see-through-demo` Gradio Space's
       `/inference` API directly (`gradio_client`, `HF_TOKEN` from the
       Windows user environment) on upstream's own `common/assets/
-    test_image.png`, `resolution=1280, seed=42, tblr_split=True` —
+test_image.png`, `resolution=1280, seed=42, tblr_split=True` —
       matching our CLI's own defaults exactly. This sidestepped the
       originally-planned local Python-environment-setup activity
       entirely (no torch/cu128 install, no `-e ./common`/`-e ./annotators`
@@ -230,7 +230,7 @@ in full, per the split convention established by MADR 0004.
       **IoU tool written** (`tools/psd_iou.py`): parses our own SVG's
       `<image>` tags (skipping `depth-*`) for tag/bbox/alpha, matches
       upstream's `psd_layers`-extracted PNGs by tag name (both already
-      normalized to the same alnum/-/_ charset), thresholds each alpha
+      normalized to the same alnum/-/\_ charset), thresholds each alpha
       channel at 0.5, reports per-tag IoU.
       **Ran it**: our own CLI on the identical `test_image.png` input,
       identical `--res 1280 --steps 30 --seed 42` (our defaults already
